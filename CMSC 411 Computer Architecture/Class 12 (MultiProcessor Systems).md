@@ -1,0 +1,185 @@
+# Class 12: MultiProcessor Systems
+## Limitations to ILP
+- With ideal processor we would have:
+	- Perfect branch prediction
+	- Perfect memory liasing allowing loads bypass stores
+- Unfortunately we live in a non-ideal world and thus we cannot execute every instruction in parallel
+	- We have to maintain control and data dependencies
+	- And structural hazards exist
+## Multiprocessor Systems
+- We will focus on multiprocessor models:
+	- Use the MIMD model
+	- Processes have multiple program counters
+	- Tightly coupled processors sharing memory
+	- Controlled by the OS
+	- Can include:
+		- Single chips with multiple cores
+		- Computers with multiple chips, each with multicore design
+- Thread Level Parallelism is exploited in two models:
+	- Parallel procesing: tightly coupled threads operating on a single task
+	- Execution of multiple, relatively independent threads
+## Multiprocesser Arch
+- For a system with n processors we must have at least n threads
+- Independent threads are typically identified by programmer or OS
+- Shared memory multiprocessors fall in two classes
+	- Symmetric (shared-memory) multiprocessors
+		- Aka centralized shared memory
+		- Aka Uniform Memory Acccess (UMA)
+	- Distributed Shared Memory (DSM)
+		- Aka Non-uniform shared Memory (NUMA)
+### Symmetric (Shared-memory)
+- Shares a centralized memory
+- Small number of cores (typically 8 or fewer)
+- Uniform latency from memory
+- ![[Pasted image 20220706020856.png]]
+  ### Distributed Shared Memory
+- Memory distributed among processors 
+	- To support larger processor counts
+- Need for a high bandwidth interconnect
+	- Data is exchanged by message passing
+- ![[Pasted image 20220706021038.png]]
+## Cache Coherence
+- ![[Pasted image 20220706021126.png]]
+- In both DSM and SMP threads use a shared address space
+	- Memory reference can be made by any processor to any memory location
+- Shared data between multicores introduces a new problem
+- If each processor has its own cache and they share the same memory
+	- If 2 processors are using the same data there will be overlap
+	- System might break
+- ![[Pasted image 20220706021512.png]]
+### Coherence vs. Consistency
+- Informally we can say thgat cache is coherent if, on a read it returns the most recent data
+- Formally we break cache coherence into two aspects
+	- Coherence:
+		- What values can be returned on a read
+		- Defines the behavior of reads and writes to the same memory location
+	- Consistency:
+		- When a written value will be returned on a read
+#### Coherence
+- A memory system is coherence if:
+	- A read by processor P to a location X that follows a write by P to X returns the value written by P if:
+		- No writes from another processor occurred between write and read
+	- A read by P from X that follows a write to X by Q returns the value written by Q if:L
+		- No other writes occured between the read
+		- The read and write are separated by sufficient time
+	- Writes to the same location are serialized
+		- Writers to the same location are seen in the same order by all processors
+##### Basic Coherence Schemes
+- In a cache coherent multiprocessor the caches provide:
+	- Migration
+		- Movement of data around the chip
+	- Replication
+	- Multiple copies of the data
+- Multi processors adopt protocols in hardware to maintain coherent caches
+	- Referred to as cache coherence protocols
+#### Coherehence Protocols
+- There are two classes of protocols in use:
+	- Directory-based:
+		- Sharing status of a particular block is kept in a directory
+	- Snoop-based:
+		- Each core tracks the sharing status of each block
+##### Terminology
+- Load/store: our usual load/store from/to memory
+- Load/read miss: no copy or invalid copy found in local cache
+- Store miss: no copy or invalid data
+- Upgrade miss: Data is not in correct state to be written to
+	- Can only write to data in modified state (includes exclusive state)
+- Coherence miss: Miss to a block evicted by another processor's coherence request
+- False sharing: two or more processors share the same block but not the same bytes
+	- Reducing block size can reduce chances
+##### General Snoop Protocols
+- **Valid-invalid (VI)**
+	- A cache must have exclusive access to a data item before writing to it
+		- Invalidates all other copies on a write
+	- Protocol has two states:
+		- Valid:
+			- Block held by cache is valid all others are invalid
+		- Invalid
+			- Block held by cache is invalid
+	- ![[Pasted image 20220706181022.png]]
+- Modified-shared-invalid (MSI)
+	- MSI breaks Valid into two states:
+		- Modified (M):
+			- Local copy is dirty
+			- When block is evicted has to be written back to memory in addition to any other location
+		- Shared:
+			- Local copy is clean
+			- Can have multiple read copies
+	- Invalid state
+		- Local copy is not correct copy or does not exist
+	- ![[Pasted image 20220709121551.png]]
+- Modified-exclusive-shared-invalid (MESI)
+	- Modified-exclusive-shared-invalid
+	- We can introduce an extra state:
+		- Exclusive
+			- This is the only cached copy and it is clean
+		- Saves an extra bus message to other caches
+	- ![[Pasted image 20220709121709.png]]
+- Modified-owner-exclusive-shared-invalid (MOESI)
+	- Includes an owner:
+		- Indicates that block is owned by that cache and memory version's is stale
+		- When a modified block is requested downgrade exclusive or shared
+		- Owner has to update lower levels on a downgrade
+		- Owner can share block but only owner can update 
+	- ![[Pasted image 20220709121843.png]]
+- Modified-owner-shared-invalid (MOSI)
+	- Adds owner to the MSI protocol
+		- Without the exclusive state
+	- Similar to MOESI
+		- Owner shares data
+		- Has the responsibility of upgrading data
+		- Owner has to update lower levels on a downgrade
+- How are these protocols communicated?
+	- Use a bus to communicate coherence info
+		- Assumes an atomic communication medium
+			- Atomicity: when something is changed it is changed everywhere at once
+		- All caches snoop the bus for any changes to their lines
+			- If the line exists in the local cache change its state/value
+			- If not; ignore the message
+		- Write-invalidate: invalidate all other copies on a write
+			- Broadcast changes on a write
+		- Need some sort of arbitration to the bus
+- Pros/Cons
+	- It is simple and easy to implement
+	- Arbiter is the only central component
+	- Does not scale easily and bus is a bottleneck
+	- Must have atomic bus
+	- What if you do not need the message but still ahd to interpret it?
+##### Directory based Protocols
+- Have a central repository for the block information
+	- Managed at the shared resource level
+- Requests are sent to directory
+	- Knows the state of each block and sharer
+	- Filters out unnecessary communication
+- Can use any type of interconnect as atomicity is not required
+- Directory might become bottleneck
+#### Coherence
+- Coherence ensures that processors see a consistent view of the memory
+	- Does not answer how consistent that memory is
+- Consistency answers the question when must a processor see a value that has been updated by another processor
+	- In what order must a processor see data writes of another processor
+- ![[Pasted image 20220709122917.png]]
+##### Sequential Consistency
+- Most straight forward model
+- Sometimes referred to as strong consistency
+- Each thread executes its access to shared memory one by one in order
+	- Only one access to shared memory is execuyted at a time
+- Consistency serializes writes in a processor
+	- Order depends on source code model
+- Has a performance disadvantage
+	- Advantage of simplicity
+##### Weak Consistency
+- The challenge is a programming model that is simple to explain but allows high performance
+- Allow programs to execute out of order but use synchronizing operations to enforce ordering
+- Multiple models exist for this but characteristics generally remain the same
+- Using acquire/release (locks) or barriers specific portions of code are forced to remain sequential
+	- Others can be reordered
+##### Synchronization
+- To use weak consistency we must have synchronization primitives
+- Standard primitives used by programmers
+	- Locks: protect data from simultaneous access by multiple users
+		- Ensures mutual exclusion
+		- Locking must be atomic
+	- Barriers: force all threads to stop until they have reached a certain point
+- ![[Pasted image 20220709123447.png]]
+- ![[Pasted image 20220709123502.png]]

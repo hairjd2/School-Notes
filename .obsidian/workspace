@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "51ffab43542f718c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b657172f22c24c80",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "CMSC 411 Computer Architecture/Class 12 (MultiProcessor Systems).md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc356c7fb0dce8dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f61bedea3d941ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b485a89c35ce21e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d9b4301dd1302edc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "757b9f5dcabebf11",
+    "type": "split",
+    "children": [
+      {
+        "id": "fbca54e5faaf6d1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b945bd45cf64c59",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CMSC 411 Computer Architecture/Class 12 (MultiProcessor Systems).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b657172f22c24c80",
+  "lastOpenFiles": [
+    "CMSC 411 Computer Architecture/Class 12 (MultiProcessor Systems).md",
+    "CMSC 411 Computer Architecture/Video Questions.md",
+    "CMSC 411 Computer Architecture/Class 8 (Loop Unrolling & Scoreboarding).md",
+    "CMSC 411 Computer Architecture/Class 5 (Pipelining & Hazards).md",
+    "CMSC 411 Computer Architecture/Class 4 (ISA Introduction and Memory Addressing).md",
+    "CMSC 411 Computer Architecture/Class 1 (Review).md",
+    "CMSC 411 Computer Architecture/Class 2 (Arithmetic Circuits).md",
+    "CMSC 411 Computer Architecture/Class 3 (Performace and Benchmarks.md",
+    "CMSC 411 Computer Architecture/Class 6 (Branch Prediction & Exceptions).md",
+    "CMSC 411 Computer Architecture/Class 9 (Memory Hierarchy and Caches).md"
+  ]
+}
