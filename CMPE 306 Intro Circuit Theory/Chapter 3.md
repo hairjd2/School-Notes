@@ -4,8 +4,6 @@
 2. Define node voltages --- the voltage at non-reference node above the reference node
 3. Express currents through resistors in terms of node voltages
 	- i = (v<sub>higher</sub> - v<sub>lower</sub>) / R
-	- $i=(v_{higher}-v_{lower})/R$
-	- 
 	- Consistent with passive-sign convention
 4. Apply KCL at each non-reference node
 	- sum leaving currents to zero
