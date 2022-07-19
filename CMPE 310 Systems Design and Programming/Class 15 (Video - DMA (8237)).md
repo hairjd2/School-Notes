@@ -1,0 +1,33 @@
+# Class 15: Video - DMA: 8237
+## Disk Memory Systems
+- Magnetic and optical:
+	- Floppy disks
+	- Hard disks
+	- CD-ROMs and WORMs
+	- DVD
+- ### Floppy
+	- The recording format called MFM (Modified Frequency Modulation) used to write double density format
+	- Heads actually contact the surface, leading to wear out
+- ### Optical Disks
+	- Pits burned onto disks, if light is reflected it means a 1, otherwise a 0
+- ### Hard Disks
+	- Has multiple disks
+	- Need to know the parts of the hard disk for final and possibly next quiz
+	- Hard Disks use MFM or RLL (Run-Length Limited) to store information
+		- RLL 2,7 is common today -- this indicates that the number of zeros in a row is always between 2 and 7
+	- The data is encoded with this table:
+		- ![[Pasted image 20220418180035.png]]
+- ### SSD Solid State Drive
+	- Uses flash memory instead of disks
+	- More shock resistant
+	- Doesn't have the same capacity
+## Video Displays
+- Composites are disappearing since high-resolution cannot be achieved
+- Most modern systems use direct video signals with separate sync signals
+- The TTL RGB Monitor:
+	- It uses TTL level signs (0 or 5V) as video inputs and a 4th line called intensity.
+	- It can display a total of 16 different colors (CGA) in older systems
+- ### TTL RGB Monitor
+	- ![[Pasted image 20220418181256.png]]
+	- The connector pin definitions for either color or monochrome
+	- 
