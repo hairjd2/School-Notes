@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CMSC 304/Meeting 6.md",
+            "file": "Reverse Engineering/RE Class 2.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 304/Meeting 6.md",
+                "file": "Reverse Engineering/RE Class 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "b657172f22c24c80",
   "lastOpenFiles": [
-    "CMSC 304/Meeting 6.md",
-    "CMSC 304/Planned Obsolescence.md",
-    "CMSC 304/Meeting 5.md",
-    "CMSC 304/Meeting 1.md",
-    "CMPE 310 Systems Design and Programming/Class 5 (Addressing Modes-Instruction Set).md",
-    "CMPE 310 Systems Design and Programming/Class 4 (8086 Chipset).md",
-    "CMPE 310 Systems Design and Programming/Class 3 (80x86 Architecture).md",
-    "CMPE 306 Intro Circuit Theory/Chapter 5.md",
+    "Reverse Engineering/RE Class 1.md",
+    "CMSC 411 Computer Architecture/Class 4 (ISA Introduction and Memory Addressing).md",
+    "CMSC 411 Computer Architecture/Class 3 (Performace and Benchmarks.md",
+    "CMSC 411 Computer Architecture/Class 2 (Arithmetic Circuits).md",
+    "CMSC 411 Computer Architecture/Class 1 (Review).md",
+    "CMPE 306 Intro Circuit Theory/Chapter 1.md",
+    "images/Pasted image 20220131180639.png",
+    "CMPE 306 Intro Circuit Theory/Chapter 2.md",
     "CMPE 306 Intro Circuit Theory/Chapter 4.md",
-    "CMPE 306 Intro Circuit Theory/Chapter 3.md"
+    "CMPE 306 Intro Circuit Theory/Chapter 7.md"
   ]
 }
