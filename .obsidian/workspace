@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reverse Engineering/RE Class 2.md",
+            "file": "CMSC 411 Computer Architecture/Class 4 (ISA Introduction and Memory Addressing).md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reverse Engineering/RE Class 2.md",
+                "file": "CMSC 411 Computer Architecture/Class 4 (ISA Introduction and Memory Addressing).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +90,7 @@
   "active": "b657172f22c24c80",
   "lastOpenFiles": [
     "Reverse Engineering/RE Class 1.md",
+    "Reverse Engineering/RE Class 2.md",
     "CMSC 411 Computer Architecture/Class 4 (ISA Introduction and Memory Addressing).md",
     "CMSC 411 Computer Architecture/Class 3 (Performace and Benchmarks.md",
     "CMSC 411 Computer Architecture/Class 2 (Arithmetic Circuits).md",
@@ -97,7 +98,6 @@
     "CMPE 306 Intro Circuit Theory/Chapter 1.md",
     "images/Pasted image 20220131180639.png",
     "CMPE 306 Intro Circuit Theory/Chapter 2.md",
-    "CMPE 306 Intro Circuit Theory/Chapter 4.md",
-    "CMPE 306 Intro Circuit Theory/Chapter 7.md"
+    "CMPE 306 Intro Circuit Theory/Chapter 4.md"
   ]
 }
