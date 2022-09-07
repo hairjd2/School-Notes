@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ECON 101 Microeconomics/Chapter and Class 1.md",
+            "file": "CMPE 311/Class 1.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ECON 101 Microeconomics/Chapter and Class 1.md",
+                "file": "CMPE 311/Class 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "b657172f22c24c80",
   "lastOpenFiles": [
-    "CMPE 311/Class 1.md",
     "CMSC 421 Principles of OS/Chapter 1 (Introduction).md",
+    "ECON 101 Microeconomics/Chapter and Class 1.md",
+    "CMPE 311/Class 1.md",
     "CMSC 421 Principles of OS/Class 1 (Intro).md",
     "CMSC 411 Computer Architecture/Class 4 (ISA Introduction and Memory Addressing).md",
     "Reverse Engineering/RE Class 1.md",
     "Reverse Engineering/RE Class 2.md",
     "CMSC 411 Computer Architecture/Class 3 (Performace and Benchmarks.md",
     "CMSC 411 Computer Architecture/Class 2 (Arithmetic Circuits).md",
-    "CMSC 411 Computer Architecture/Class 1 (Review).md",
-    "CMPE 306 Intro Circuit Theory/Chapter 1.md"
+    "CMSC 411 Computer Architecture/Class 1 (Review).md"
   ]
 }
