@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CMPE 311/Class 2.md",
+            "file": "CMPE 311/Class 3.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMPE 311/Class 2.md",
+                "file": "CMPE 311/Class 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +89,9 @@
   },
   "active": "da8ea8fd3879d3cd",
   "lastOpenFiles": [
+    "CMPE 311/Class 2.md",
     "CMPE 311/Class 3.md",
     "CMSC 411 Computer Architecture/Class 2 (Arithmetic Circuits).md",
-    "CMPE 311/Class 2.md",
     "images/Pasted image 20220301110915.png.md",
     "CMSC 304/Class 2.md",
     "CMSC 421 Principles of OS/Chapter 1 (Introduction).md",
