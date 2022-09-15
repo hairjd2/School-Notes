@@ -13,7 +13,7 @@
 	- **Resource Allocation** - When multiple users or multiple jobs running concurrently, resources must be allocated to each of them
 	- **Logging** - To keep track of which users use how much and what kinds of computer resources
 	- **Protection and security** - The owners of information stored in a multiuser or networked computer system may want to control use of that information, concurrent processes should not interfere with each other
-- ![[Pasted image 20220914103138.png]]
+	- ![[Pasted image 20220914103138.png]]
 ## User and OS Interface
 - CLI or **Command interpreter** allows direct command entry
 	- Sometimes implemented in kernel, sometimes by systems program

@@ -10,3 +10,6 @@
 ### 1. Set Directions
 - DDR register
 ### 2. Either read the port or write to the port
+## Bit Masking
+- AND with a 1 will get the same value back
+- 
