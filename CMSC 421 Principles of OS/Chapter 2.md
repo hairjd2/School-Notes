@@ -78,7 +78,99 @@
 	- Rather, **dynamically linked libraries** (DLL in windows) are loaded as needed, shared by all the use the same version of that same library (loaded once)
 	- Object, executable files have standard formats, so OS knows how to load and start them
 ## Why Applications are OS Specific
+- Apps compiled on one system usually not exe on other OS
+- Each OS provides its own unique syscalls
+- Apps can be multi-OS
+	- Written in interpreted language and interpreter available on multiple OSs
+	- App written in language that includes VM containing the running app
+	- Use standard language (like C) compile separately on each OS to run on each
+- **Application Binary Interface** (ABI) is architecture equivalent of API, defines how different components of a binary can interface for a given OS on a given architecture, CPU, etc.
 ## OS Design and Implementation
+- **User** goals and **System** goals
+	- User goals - OS should be convenient
+	- System goals - OS should be easy to design and implement
+- Important policy
+	- **Policy** - What will be done?
+	- **Mechanism** - How to do it?
+- Specifying and designing an OS is highly creative task of **software engineering**
+### Implementation
+- Much variation
+	- Early OSes in asm language
+	- Then system programming languages like Algol, PL/1
+	- Now C, C++
+- Actually usually a mix of languages
+	- Lowest levels in asm
+	- Main body in C
+	- Systems programs in C, C++, scripting languages like PERL, Python, shell scripts
+- More high-level language easier to **port** to other hardware
+	- But slower
+- **Emulation** can allow an OS to run on non-native hardware
 ## OS System Structure
+- General-purpose OS is very large program
+- Various ways to structure ones
+	- Simple - MS-DOS
+	- More complex - UNIX
+	- Layered - an abstrcation
+	- Microkernel - Mach
+### Monolithic Structure - OG UNIX
+- UNIX - limited by hardware functionality, the OG UNIX OS had limited structuring. The UNIX OS consists of two separable parts
+- Systems programs
+- The kernel
+	- Consists of everything below the syscall interface and above the physical hardware
+- Basically one big piece using layers
+### Microkernels
+- Moves as much from the kernel into user space
+- **Mach** example of **microkernel**
+	- MacOS X kernel (**Darwin**) partly based on Mach
+- Communication takes place between user modules using **message passing**
+- Benefits:
+	- Easier to extend a microkernel
+	- Easier to port the OS to new architectures
+	- More reliable (less code is running in kernel mode)
+	- More secure
+- Detriments
+	- Performance overhead of user space to kernel space communication
+### Modules
+- Many modern OSes implement **loadable kernel modules** (LKMs)
+	- Uses OO approach
+	- Each core component is separate
+	- Each talks to the others over known interfaces
+	- Each is loadable as needed within the kernel
+- Overall, similar to layers but with more flexibility
+	- Linux, Solaris, etc.
+### Hybrid Systems
+- Most modern OSes are actually not one pure model
+	- Hybrid combines multiple approaches to address performance, security, usability needs
+	- Linux and Solaris kernels in kernel address space, so monolithic, plus modular for dynamic loading of functionality
+	- Windows mostly monolithic, plus microkernel for different subsystem **personalities**
+- Apple MacOS X hybrid, layered, Aqua UI plus Cocoa programming environment
+	- Below is kernel consisting of Mach microkernel and BSD Unix parts, plus IO kit and dynamically loadable modules (called **kernel extensions**)
+- Hybrid systems are essentially monolithic, but without the strict structure of traditional monolithic systems, such as System V.
 ## Building and Booting an OS
+- OSes generally designed to run on a class of systems with variety of perpherals
+- Commonly OS already installed on purchased computer
+	- But can build and install some other OSes
+	- If generating an OS from scratch
+		- Write the OS source code
+		- Configure the OS for the system on which it will run
+		- Compile the OS
+		- Install the OS
+		- Boot the computer and its new OS
+### System Boot
+- When power initialized on system, execution starts at a fixed memory location
+- OS must be made available to hardware so hardware can start it
+	- Small pieces of code - **bootstrap loader**, **BIOS**, stored in **ROM** or **EEPROM** locates the kernel, loads it into memory, and starts it
+	- Sometimes two-step process where **boot block** at fixed location loaded by ROM code, which loads boostrap loader from disk
+	- Modern systems replace BIOS with **Unified Extensible Firmware Interface (UEFI)**
+- Common bootstrap loader, **GRUB**, allows selection of kernel from multiple disks, versions, kernel options
+- Kernel loads and system is then **running**
+- Boot loaders frequently allow various boot states, such as single user mode
 ## OS Debugging
+- Debugging is finding and fixing bugs, as well as performance tuning
+- OS generate **log files** containing error information
+- Failure of an application can generate **core dump** file capturing memory of the process
+- OS failure can generate **crash dump** file containing kernel memory
+- Beyond crashes, performance tuning can optimize sys performance
+	- Somtimes using trace listings of activities record for analysis
+	- **Profiling** is periodic sampling of IP to look for statitistical trends
+	- 

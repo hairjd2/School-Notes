@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CMPE 311/Class 2.md",
+            "file": "CMSC 421 Principles of OS/Chapter 2.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMPE 311/Class 2.md",
+                "file": "CMSC 421 Principles of OS/Chapter 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "da8ea8fd3879d3cd",
   "lastOpenFiles": [
+    "CMPE 311/Class 2.md",
     "CMPE 311/Class 3.md",
     "CMSC 411 Computer Architecture/Class 5 (Pipelining & Hazards).md",
     "CMSC 411 Computer Architecture/Class 6 (Branch Prediction & Exceptions).md",
@@ -97,7 +98,6 @@
     "ECON 101 Microeconomics/Chapter 1 and Class 1.md",
     "ECON 101 Microeconomics/Chapter 3.md",
     "ECON 101 Microeconomics/Chapter 2.md",
-    "Excalidraw/Drawing 2022-02-24 10.41.14.excalidraw.md",
-    "CMPE 311/Class 2.md"
+    "Excalidraw/Drawing 2022-02-24 10.41.14.excalidraw.md"
   ]
 }
