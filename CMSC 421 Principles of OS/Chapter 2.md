@@ -173,4 +173,3 @@
 - Beyond crashes, performance tuning can optimize sys performance
 	- Somtimes using trace listings of activities record for analysis
 	- **Profiling** is periodic sampling of IP to look for statitistical trends
-	- 

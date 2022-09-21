@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CMSC 421 Principles of OS/Chapter 2.md",
+            "file": "CMSC 421 Principles of OS/Chapter 3 (Processes).md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 421 Principles of OS/Chapter 2.md",
+                "file": "CMSC 421 Principles of OS/Chapter 3 (Processes).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,12 +89,12 @@
   },
   "active": "da8ea8fd3879d3cd",
   "lastOpenFiles": [
+    "CMSC 421 Principles of OS/Chapter 2.md",
     "CMPE 311/Class 2.md",
     "CMPE 311/Class 3.md",
     "CMSC 411 Computer Architecture/Class 5 (Pipelining & Hazards).md",
     "CMSC 411 Computer Architecture/Class 6 (Branch Prediction & Exceptions).md",
     "CMSC 411 Computer Architecture/Class 7 (Multicycle Pipelines).md",
-    "CMSC 421 Principles of OS/Chapter 2.md",
     "ECON 101 Microeconomics/Chapter 1 and Class 1.md",
     "ECON 101 Microeconomics/Chapter 3.md",
     "ECON 101 Microeconomics/Chapter 2.md",
