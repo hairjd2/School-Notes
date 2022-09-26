@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "da8ea8fd3879d3cd",
+        "id": "2ec3f7cd5de3b687",
         "type": "leaf",
         "state": {
           "type": "markdown",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "da8ea8fd3879d3cd",
+  "active": "2ec3f7cd5de3b687",
   "lastOpenFiles": [
+    "images/Pasted image 20220926105857.png",
+    "CMSC 421 Principles of OS/Chapter 3 (Processes).md",
+    "images/Pasted image 20220926103816.png",
+    "images/Pasted image 20220926103738.png",
+    "images/Pasted image 20220926103449.png",
     "CMSC 421 Principles of OS/Chapter 2.md",
     "CMPE 311/Class 2.md",
     "CMPE 311/Class 3.md",
     "CMSC 411 Computer Architecture/Class 5 (Pipelining & Hazards).md",
-    "CMSC 411 Computer Architecture/Class 6 (Branch Prediction & Exceptions).md",
-    "CMSC 411 Computer Architecture/Class 7 (Multicycle Pipelines).md",
-    "ECON 101 Microeconomics/Chapter 1 and Class 1.md",
-    "ECON 101 Microeconomics/Chapter 3.md",
-    "ECON 101 Microeconomics/Chapter 2.md",
-    "Excalidraw/Drawing 2022-02-24 10.41.14.excalidraw.md"
+    "CMSC 411 Computer Architecture/Class 6 (Branch Prediction & Exceptions).md"
   ]
 }
