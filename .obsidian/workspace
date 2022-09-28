@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CMSC 421 Principles of OS/Chapter 3 (Processes).md",
+            "file": "ECON 101 Microeconomics/Chapter 7 (Consumers, Producers, and The Efficiency of Markets).md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bbc39c5f28987677",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 421 Principles of OS/Chapter 3 (Processes).md",
+                "file": "ECON 101 Microeconomics/Chapter 7 (Consumers, Producers, and The Efficiency of Markets).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +90,15 @@
   },
   "active": "2ec3f7cd5de3b687",
   "lastOpenFiles": [
-    "images/Pasted image 20220926105857.png",
+    "ECON 101 Microeconomics/Chapter 6 (Supply, Demand, and Government Politics).md",
     "CMSC 421 Principles of OS/Chapter 3 (Processes).md",
+    "images/Pasted image 20220926105857.png",
     "images/Pasted image 20220926103816.png",
     "images/Pasted image 20220926103738.png",
     "images/Pasted image 20220926103449.png",
     "CMSC 421 Principles of OS/Chapter 2.md",
     "CMPE 311/Class 2.md",
     "CMPE 311/Class 3.md",
-    "CMSC 411 Computer Architecture/Class 5 (Pipelining & Hazards).md",
-    "CMSC 411 Computer Architecture/Class 6 (Branch Prediction & Exceptions).md"
+    "CMSC 411 Computer Architecture/Class 5 (Pipelining & Hazards).md"
   ]
 }
