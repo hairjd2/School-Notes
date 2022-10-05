@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CMPE 311/Class 3.md",
+            "file": "ECON 101 Microeconomics/Chapter 9 (International Trade).md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMPE 311/Class 3.md",
+                "file": "ECON 101 Microeconomics/Chapter 9 (International Trade).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "2ec3f7cd5de3b687",
   "lastOpenFiles": [
+    "ECON 101 Microeconomics/Chapter 8 (Application; the Costs of taxation).md",
+    "CMPE 311/Class 3.md",
     "CMSC 421 Principles of OS/Chapter 4 (Threads and Concurrency).md",
     "CMSC 421 Principles of OS/Chapter 3 (Processes).md",
     "ECON 101 Microeconomics/Chapter 5 (Elasticity).md",
@@ -96,8 +98,6 @@
     "ECON 101 Microeconomics/Chapter 7 (Consumers, Producers, and The Efficiency of Markets).md",
     "ECON 101 Microeconomics/Chapter 6 (Supply, Demand, and Government Politics).md",
     "images/Pasted image 20220926105857.png",
-    "images/Pasted image 20220926103816.png",
-    "images/Pasted image 20220926103738.png",
-    "images/Pasted image 20220926103449.png"
+    "images/Pasted image 20220926103816.png"
   ]
 }
