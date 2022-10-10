@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CMSC 421 Principles of OS/Chapter 4 (Threads and Concurrency).md",
+            "file": "CMSC 421 Principles of OS/Chapter 5 (CPU Scheduling).md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMSC 421 Principles of OS/Chapter 4 (Threads and Concurrency).md",
+                "file": "CMSC 421 Principles of OS/Chapter 5 (CPU Scheduling).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "2ec3f7cd5de3b687",
   "lastOpenFiles": [
-    "ECON 101 Microeconomics/Chapter 9 (International Trade).md",
-    "ECON 101 Microeconomics/Chapter 8 (Application; the Costs of taxation).md",
-    "CMPE 311/Class 3.md",
+    "CMSC 421 Principles of OS/Class 1 (Intro).md",
+    "CMSC 421 Principles of OS/Chapter 5 (CPU Scheduling).md",
+    "Excalidraw/Drawing 2022-02-24 10.41.14.excalidraw.md",
+    "Untitled 1.md",
+    "Untitled 4.md",
+    "Untitled 3.md",
+    "Untitled 2.md",
     "CMSC 421 Principles of OS/Chapter 4 (Threads and Concurrency).md",
-    "CMSC 421 Principles of OS/Chapter 3 (Processes).md",
-    "ECON 101 Microeconomics/Chapter 5 (Elasticity).md",
-    "ECON 101 Microeconomics/Chapter 4 (Supply and Demand).md",
-    "ECON 101 Microeconomics/Chapter 7 (Consumers, Producers, and The Efficiency of Markets).md",
-    "ECON 101 Microeconomics/Chapter 6 (Supply, Demand, and Government Politics).md",
-    "images/Pasted image 20220926105857.png"
+    "ECON 101 Microeconomics/Chapter 9 (International Trade).md",
+    "ECON 101 Microeconomics/Chapter 8 (Application; the Costs of taxation).md"
   ]
 }
