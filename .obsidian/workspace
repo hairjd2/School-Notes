@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "CMPE 310 Systems Design and Programming/Class 3 (80x86 Architecture).md",
+            "file": "CMSC 421 Principles of OS/Chapter 5 (CPU Scheduling).md",
             "mode": "source",
             "source": false
           }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bbc39c5f28987677",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CMPE 310 Systems Design and Programming/Class 3 (80x86 Architecture).md",
+                "file": "CMSC 421 Principles of OS/Chapter 5 (CPU Scheduling).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +89,7 @@
   },
   "active": "2ec3f7cd5de3b687",
   "lastOpenFiles": [
+    "CMPE 310 Systems Design and Programming/Class 3 (80x86 Architecture).md",
     "CMSC 421 Principles of OS/Chapter 5 (CPU Scheduling).md",
     "CMSC 421 Principles of OS/Class 1 (Intro).md",
     "Excalidraw/Drawing 2022-02-24 10.41.14.excalidraw.md",
@@ -98,7 +98,6 @@
     "Untitled 3.md",
     "Untitled 2.md",
     "CMSC 421 Principles of OS/Chapter 4 (Threads and Concurrency).md",
-    "ECON 101 Microeconomics/Chapter 9 (International Trade).md",
-    "ECON 101 Microeconomics/Chapter 8 (Application; the Costs of taxation).md"
+    "ECON 101 Microeconomics/Chapter 9 (International Trade).md"
   ]
 }

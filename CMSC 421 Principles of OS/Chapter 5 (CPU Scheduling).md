@@ -66,7 +66,75 @@
 - Run the process with the highest priority. Processes with the same priority run RR
 - check slide 23
 ## Thread Scheduling
+- Distinction between user-level and kernel-level threads
+- When threads supported in a kernel, threads are what is scheduled, not processes
+- In the m:o and m:m models, thread library schedules user-level threads to run on LWP
 ## Multi-Processor Scheduling
+- CPU scheduling more complex when multiple CPUs are available
+- Multiprocess may be any one of the following architectures
+	- Multicore CPUs
+	- Multithreaded cores
+	- NUMA systems
+	- Heterogeneous multiprocessing
+- In a **Symmetric Multiprocessing System** (SMP), in general threads are eligible to run on all cores or CPUs since each core/CPU is symmetric
+- All threads may be in a common ready queue (a)
+- Each processor may have its own private queue of threads (b)
+### Multicore Processors
+- Recent trend to place multiple processor cores on same physical chip
+- Faster and consumes less power
+- Multiple threads per core also growing
+	- Takes advantage of memory stall to make progress on another thread while memory retrieve happens
+### Multithreaded Multicore System
+- In a system with multiple hardware threads per core, If one thread has a memory stall, switch to another thread!
+- **Chip-multithreading** (CMT) assigns each core multiple hardware threads (Intel refers to this as hyperthreading)
+- On a quad-core system with 2 hardware threads per core, the OS sees 8 logical processors
+- Two levels of scheduling
+	1. The OS deciding which software thread to run on a logical CPU
+	2. How each core decides which hardware thread to run on the physical core
+### Load Balancing
+- If SMP, need to keep all CPUs loaded for efficiency 
+- **Load Balancing** attempts to keep workload evenly distributed
+- **Push Migration** - periodic task checks load on each processor, and if found pushes task from overloaded CPU to other CPUs
+- **Pull Migration** - idle processors pulls waiting task from busy processor
+### Processor Affinity
+- Basically says "this thread should run on this CPU"
+- When a thread has been running on one processor, the cache contents of that processor stores the memory accesses by that thread
+- We refer to this as a thread having affinity for a processor (i.e. "processor affinity")
+- Load balancing may affect processor affinity as a thread may be moved from one processor to anotherr to balance loads, yet that thread loses the contents of what it had in the cache of the processor it was moved off of
+- **Soft Affinity** - the OS attempts to keep a thread running on the same processor but no guarantees
+- **Hard affinity** - allows process to specify a set of processors it may run on
+### NUMA and CPU Scheduling
+- If the OS is NUMA-aware, it will assign memory closest to the CPU the thread is running on.
 ## Real-Time CPU Scheduling
+- Can present obvious challenges
+- **Soft real-time systems** - Critical real-time tasks have the highest priority, but no guarantee as to when the tasks will be scheduled
+- **Hard real-time systems** - task must be serviced by its deadline
+- **Event latency** - the amount of time that happens between when an event happens and when it is dealt with
+	1. **Interrupt latency** - how long from when an interrupt occurs to when it is dealt with
+	2. **Dispatch latency** - time for schedule to take current process off CPU and switch to another
+### Priority-based Scheduling
+- For real-time scheduling, scheduler must support preemptive, priority-based scheduling
+	- But only guarantees soft real-time
+- For hard real-time must also provide ability to meet deadlines
+- Processes have new characteristics: **periodic** ones requre CPU at constant intervals
+	- Has processing time t, deadline d, period p
+	- $0 \le t \le d \le p$
+	- Rate of periodic task is 1/p
 ## OS Examples
+- Linux through version 2.5 used a round robin scheduler, which was great for soft real-time systems but awful for interaction
+- Linux version 2.6.23+ uses CFS (**Completely Fair Scheduler**)
+	- Supports load-balancing and is NUMA-aware
+- Windows uses priority-based preemptive scheduling
+	- **Dispatcher** is scheduler
+	- **Variable class** is 1-15, **real-time class** is 16-31
+	- If no run-able thread, runs **idle thread**
+	- Most things have a priority of 8
+	- slide 57 should say "+3 priority boost" instead of "3x priority boost"
 ## Algorithm Evaluation
+- How to select CPU-scheduling algorithm for an OS?
+- Determine criteria, then evaluate algorithms
+- **Deterministic modeling**
+	- Type of **analytic evaluation**
+	- Takes a particular predetermined workload and defines the performance of each algorithm for that workload
+- Consider 5 processes arriving at time 0
+- 
