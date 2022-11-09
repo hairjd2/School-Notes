@@ -115,6 +115,13 @@
 		- Do I/O only into OS buffers
 - Now consider that backing store has same fragmentation problems
 # Paging
+- Physical address space of a process can be noncontiguous; process is allocated physical memory whenever the latter is available
+	- Avoids external
+	- Avoids problem of varying sized memory chunks
+- Divide physical memory into fixed-sized blocks called **frames**
+	- Size is power of 2, between 512 bytes and 16 Mbytes
+	- Divide logical memory into blocks of same sizse called **pages**
+	- Keep track of all free frames
 # Structure of the Page Table
 # Swapping
 # Example: The Intel 32 and 64-bit Architectures
