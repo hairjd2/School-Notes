@@ -125,4 +125,15 @@
 # Structure of the Page Table
 # Swapping
 # Example: The Intel 32 and 64-bit Architectures
+- Dominant industry chips
+- Starts in 16 "Real mode"
+- Intel made the first CPUs
+- Went to IBM who was making the "Personal Computer"
+	- IBM big, Intel small
+	- IBM made intel go to another company to make their processors with them
+	- Went to AMD, would give them the research and patents, asking for them to make and ship the chips they make
+	- 
+- 4004 and 4040 were mainly used in calculators
+- Itanium is the first 64 bit processor Intel made
+- 
 # Example: ARMv6 Architecture
