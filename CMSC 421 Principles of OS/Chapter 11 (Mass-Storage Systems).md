@@ -1,3 +1,4 @@
+
 # Overview of Mass Storage Structure
 - Bulk of secondary storage for modern computers is **hard disk drives (HDD)** and **nonvolatile memory (NVM)** devices
 - **HDDs** spin platters of magnetically-coated material under moving read-write heads
