@@ -1,0 +1,21 @@
+- LaBerge reads mysteries
+# Beginning
+- You've got nothing
+- Synthesis problem (guidelines given by customer)
+- Constraints:
+	- Personnel constraints
+	- Cost Constraints
+	- Technology constraints
+	- Time
+	- Limitations of knowledge
+- We've been learning stuff under analysis
+- ![[Pasted image 20230201091027.png]]
+- Stakeholders (the 4 c's):
+	- Customers
+	- Clients
+	- Consumers
+	- Caretakers
+- Need to make a system boundary as the very first thing
+## System Boundary
+- ![[Pasted image 20230201092615.png]]
+- ![[Pasted image 20230201093141.png]]
