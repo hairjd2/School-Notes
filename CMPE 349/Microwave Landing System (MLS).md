@@ -1,0 +1,14 @@
+- Supposed to replace 1940s vintage ILS
+- Precision landing system; meaning it was guided vertically
+- Had reliable, accurate 3-D positioning
+# Features
+- Full system, up to:
+	- +- 60 degrees azimuth
+	- 1.5 - 29.5 degrees elevation
+	- 0-22 nmi (nautical miles) from the runway stop end
+- Embedded data functions
+- CAT III (Autoland) accuracy at all runways (but not CAT III ops)
+- C-Band (5000 MHz) + L-Band (1000 MHz)
+- Support for curved and segmented approaches
+- ![[Pasted image 20230203090939.png]]
+- 

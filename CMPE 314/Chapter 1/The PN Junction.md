@@ -1,0 +1,16 @@
+- ![[Pasted image 20230202153736.png]]
+- Metallurgical junction: large density gradient in both electron and hole concentration occurs across this junction.
+- Diffusion of electrons from n-region into p-region
+- Diffusion of holes from p-region into n-region
+- ![[Pasted image 20230202153900.png]]
+# pn-Junction in Equilibrium (zero bias a.k.a. no added current)
+- These diffusions of majority carriers uncover negatively charged acceptor ions in the p-region and positively charged donor ions in the n-region.
+- ![[Pasted image 20230202153935.png]]
+- ![[Pasted image 20230202153940.png]]
+- Diffusion of majority electrons and holes creates a space-charge region. (also called depletion region, no mobile electrons and holes, 0.1-1 micrometers)
+- Setup an internal electric field (built-in potential barrier $V_{bi}$)
+	- Against further diffusion of majority carriers
+	- Small $I_{diff}$ (sensitive to $V_{bi}$)
+- Minority carriers migrate to edges of space-charge region and be swept (drifted) through.
+	- Small $I_{drift}$ (depends weakly on temp)
+	- ![[Pasted image 20230202154920.png]]
