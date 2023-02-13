@@ -58,11 +58,11 @@ Final | 35%
 - ==Voltage has polarities==
 	- "+" terminal: (reference) high potential point
 	- "-" terminal: (reference) low potential point
-- V = U^+ - U^-
+- $V = U^+ - U^-$
 	- + to - is a voltage drop
 	- - to + is a voltage rise
-- W = delta(q)U
-- ==V = U^+ - U^- = dW/dq==
+- $W = \Delta q U$
+- ==$V = U^+ - U^- = \frac{dW}{dq}$==
 	- Electric energy ==loss== when unit positive charge (delta(q) = +1C) moving from + to - points
 	- Electric energy ==gain== when unit positive charge moving from - to + points
 ### Power: the time rate of supplying or absorbing energy
@@ -78,8 +78,8 @@ Final | 35%
 	- Capicitor
 	- Inductor
 - ## Sources (active circuit elements)
-	-   | independent source (value specified | dependent source (dependence specified)
-		-| ------------------------------------ | ---------------------------------------------
+	- ------| independent source (value specified | dependent source (dependence specified)
+		------| ------------------------------------ | ---------------------------------------------
 		Voltage source (v<sub>s</sub>(t) specified, i<sub>s</sub> to be determined) | ![[Pasted image 20220203101233.png]] v<sub>s</sub> value specified | ![[Pasted image 20220203101258.png]]v<sub>s</sub> = $\alpha$v<sub>x</sub> or v<sub>s</sub> = $\beta$i<sub>x</sub>
 		Current source (i<sub>s</sub>(t) specified, v<sub>s</sub> to be determined) | ![[Pasted image 20220203101723.png]] i<sub>s</sub> value specified | ![[Pasted image 20220203101753.png]] i<sub>s</sub> = $\gamma$v<sub>x</sub> or i<sub>s</sub> = $\rho$i<sub>x</sub>
 		

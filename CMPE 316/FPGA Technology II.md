@@ -31,3 +31,17 @@
 - This is useful for **platform design**
 - Hard to dedseign because the design tools are significantly different between FPGA and ASIC
 - ASIC: fine-grained; FPGA: medium-grained or coarse-grained
+## Anti-fuse programming
+- Microchip anti-fuse FPGA for space applications
+- Programmed offline with device programmer
+- Non-volatile
+	- Configured at power-up
+	- Don't require external memory chip
+- Configuration data is secure since it is embedded in FPGA
+- Radiation hard - not as susceptible to radiation induced "bit flips" that alter configuration in SRAM
+- Disadvantages
+	- One time programmable
+	- Anti-fuse technology nodes are gemerations behind SRAM
+# Logic Cells or Logic Elements
+- The (Complex Logic Block cells) CLB has some fast interconnect that is used to connect neighboring slices
+- 
