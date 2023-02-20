@@ -5,7 +5,7 @@
 	  3. Standard cell devices
 	  4. Full-custom chips
 ## Full-custom
-	- Nothing is predefined, not even standard logic gates
+- Nothing is predefined, not even standard logic gates
 ## Gate Arrays
 - Based on the idea of a basic cell consisting of a collection of unconnected transistors and resistors
 - ASIC vendor "prefabs" silicon chips containing arrays of these basic cells
