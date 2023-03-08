@@ -1,4 +1,11 @@
 - Need to read articles, watch documentary, and read code of ethics
 - Boeing put engines up higher and in more since they were bigger for the 737 Max
 - Engineers should practice in their area of expertise
+- When looking at the people, think about:
+	- Their ethics
+	- Is this person or this act appropriately covered by the code of ethics
+- Need to think about John Marder, John Chang, Thomas Chang
+- Give 3 lessons for young engineers <- target audience
+- wasn't a crash
+- wasn't from atmospheric turbulence
 - 
