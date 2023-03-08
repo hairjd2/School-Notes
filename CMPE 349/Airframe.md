@@ -1,0 +1,4 @@
+- Need to read articles, watch documentary, and read code of ethics
+- Boeing put engines up higher and in more since they were bigger for the 737 Max
+- Engineers should practice in their area of expertise
+- 
