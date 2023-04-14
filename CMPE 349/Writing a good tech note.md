@@ -1,0 +1,8 @@
+- Short (5-10)(memo) to moderate (30)(note) pages
+- The purpose is to document a technical decision, derivation, tradeoff, or analysis
+- LL #2: It doesn't exist if it isn't written down
+- Your audience may be *you*: you *will* forget how you worked the problem in a few years
+- Contents are very flexible
+	- Intro - whats the topic or problem
+	- May have background / analysis / discussion sections.
+- Meant to be found again
