@@ -1,0 +1,35 @@
+# History
+- First IC made by Jack Kilby at TI in 1958, made of a flip-flop of two transistors
+- Intel i7 has 2.3 billion transistors
+- 64GB flash memory > 16 billion transistors
+## Growth Rate
+- Driven by miniaturization of transistors
+- The nm refers to length of transistors, distance of each node
+- >10^19 transistors manufactured in 2008
+# Transistor
+- Used to be vacuum tubes
+- John Bardeen and Walter Brattain built first point contact transistor in 1947
+- Power is proportional to heat
+- Working with N-type and P-type MOSFET
+- 1970's only had NMOS
+- Only in the 1980's-present use CMOS for low idle power
+- Meant to drastically reduce battery drainage
+- Integration Levels
+	- SSI: 10 gates
+	- MSI: 1k gates
+	- LSI: 10k gates
+	- VLSI: > 10k gates
+- Clock frequency has somewhat grown exponentially, but has flatten nowadays
+- Min feature size shrinking 30% every 2-3 years
+- ![[Pasted image 20230906133107.png]]
+- Metal gate has been replaced by polysilicon or poly in modern tech
+- ![[Pasted image 20230906133313.png]]
+- Fundamental to know RC circuit
+- Everything will be on that
+- Digital design hates capacitance since it is proportional to power consumption
+- ![[Pasted image 20230906134653.png]]
+- For a buffer, should use two inverters
+- ![[Pasted image 20230906140428.png]]
+- Bad idea bc PMOS cannot transfer a good 0, leaving some threshold amount of charge
+- NMOS can transfer a good 0, PMOS can transfer a good 1
+- 
