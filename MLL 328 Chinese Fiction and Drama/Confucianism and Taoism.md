@@ -1,3 +1,7 @@
+---
+tags:
+  - ProvideTheSign
+---
 # Confucius
 - Lived to be 73 (552-479 B.C.)
 - Kong Qiu (孔丘), Kong fu zi (master kong), Confucius
