@@ -32,4 +32,14 @@
 - ![[Pasted image 20230906140428.png]]
 - Bad idea bc PMOS cannot transfer a good 0, leaving some threshold amount of charge
 - NMOS can transfer a good 0, PMOS can transfer a good 1
+- ![[Pasted image 20230911132241.png]]
+- Having all 0's for NAND or all 1's for NOR will receive the result the fastest
+- ![[Pasted image 20230911134744.png]]
+- ![[Pasted image 20230911135848.png]]
+- ![[Pasted image 20230911135729.png]]
+- Have both pmos and nmos so that you don't have a weak signal issue
+- ![[Pasted image 20230911135737.png]]
+- Cross coupled inverter for storage cell
+- ![[Pasted image 20230911141008.png]]
+- Each inverter strengthens the signal of the other to prevent leakage
 - 
