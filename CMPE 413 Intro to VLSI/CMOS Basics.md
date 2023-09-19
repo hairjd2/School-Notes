@@ -42,4 +42,6 @@
 - Cross coupled inverter for storage cell
 - ![[Pasted image 20230911141008.png]]
 - Each inverter strengthens the signal of the other to prevent leakage
+- OAI: Or And Inverter
+- XOR:![[Pasted image 20230913131922.png]]
 - 
