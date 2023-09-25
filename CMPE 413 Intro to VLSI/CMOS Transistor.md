@@ -46,4 +46,35 @@
 	- Cut-off: accumulation, current between drain and source is essentially 0
 	- Non-saturated: weak inversion, current dependent on both $V_{gs}$ and $V_{ds}$
 	- Saturated: strong inversion: $I_{ds}$ is ideally independent of $V_{ds}$
+- ![[Pasted image 20230925132336.png]]
+- 
+## Linear
+- $I=\frac{dQ}{dt}=\frac{Q}{t}=?$
+- $I_{ds}=\frac{CV}{t}$
+- $C = \epsilon_{ox}(\frac{A}{d})=\epsilon_{ox}(\frac{WL}{t_{ox}})=(\frac{\epsilon_{ox}}{t_{ox}})WL=C_{ox}WL$
+- $V=(V_{gc}-V_{t})$
+- $V_C=\frac{V_s+V_d}{2}=\frac{2V_s+(V_d-V_s)}{2}=V_s+\frac{V_{ds}}{2}$
+## Mobility
+- All dopings and voltages reversed by PMOS
+	- Mobility $\mu_p$ is determined by holes
+	- Typically it is 2-3 times lower than that of electrons
+- ![[Pasted image 20230925133219.png]]
+## Threshold Voltage
+- $V_t$ is also an important parameter
+- Most are related to material properties
+- Usually determined at time of fab
+- Parameters include
+	- Gate conductor material
+	- Gate insulation material
+	- The thickness of gate material
+	- Channel doping concentration
+- Also dependent on
+	- $V_{sb}$, the voltage between source and substrate
+	- Temperature
+- ![[Pasted image 20230925135243.png]]
+### Body Effect
+- ![[Pasted image 20230925135312.png]]
+- The substrate is usually held at 0 for digital circuits
+- Sources of n-channel devices, for example, are also held at zero, except in cases of series connections, like:
+- ![[Pasted image 20230925135428.png]]
 - 
