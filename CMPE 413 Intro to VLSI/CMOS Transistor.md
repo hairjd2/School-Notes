@@ -77,4 +77,5 @@
 - The substrate is usually held at 0 for digital circuits
 - Sources of n-channel devices, for example, are also held at zero, except in cases of series connections, like:
 - ![[Pasted image 20230925135428.png]]
+- $P=IV=\alpha C_LV_{DD}^2f$
 - 
