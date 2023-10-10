@@ -1,9 +1,14 @@
-# The Dawn of Chinese Fiction
 # Six Dynasties Fiction
 ## Background
 - Han dynasty (206 BC – 220 AD)
 - Three Kingdoms (220-265)
 - Six Dynasties (265-581)
+	- Eastern Wu
+	- Jin
+	- Liu Song
+	- Southern Qi
+	- Liang
+	- Chen
 - Sui Dynasty (581-618)
 - Tang Dynasty (618-906)
 - Period of decentralization and chaos
@@ -141,6 +146,13 @@ He made money by selling a ghost"
 	- Repayment and amorality
 	- Moral message
 ### Plot
+- Wei Yin and Cheng were friends, and cousins, who were always together and were both fond of wine and beautiful women. Although they spent so much of their lives together, they had very different personalities and views on life which became apparent when Cheng married. In the middle of one summer, Cheng came across a beautiful woman accompanied by 2 handmaidens. The beautiful lady was "dressed in white and of an enchanting beauty". He was captured by her otherworldly looks and offered his donkey for her to ride, saying that a beautiful girl like herself should not have to walk. They became engrossed in conversation for so long that Cheng wound up at a large mansion that night, where the lady, named Miss Jen, lived. Miss Jen asked Cheng to wait a moment while she went inside to prepare something for him. After being invited in, they feasted and drank several goblets of wine and lay together that night.
+- After leaving the next morning, Cheng could not get the beautiful Miss Jen off his mind. As he was traveling home through a neighboring village he asked about he mansion he has just come from; according to the local proprietor no such mansion existed in that area, only a gate and broken down walls. Cheng could hardly believe this as he had spent the night at this wonderful place and he told the proprietor such. The proprietor suspected that it was the local fox spirit, who liked to beguile men into staying the night with her. After several weeks had passed without his spotting the lady again, Cheng finally stumbled across her in the market place. She knew that Cheng had figured out her secret and was shocked that he would seek her out again. Cheng professed his love for her and proclaimed that he would take care of her and find her a place to live if she would marry him. After some convincing, Miss Jen agreed.
+- Not long after their marriage, Cheng's cousin Wei Yin met Miss Jen; he didn't believe at first that his cousin had found such a beautiful woman to be his wife. Because of his disbelief, he went to Cheng's house to see his new bride one day after Cheng had left. Stunned by her beauty, Wei Yin tried to make a move on Miss Jen and intended to rape her. Miss Jen fought against him but was too weak to break free of his hold, so instead she asked him to hold off for just a moment and became very sad. When asked why she looked so upset, Miss Jen said it was because she felt bad for Cheng because she was all that he has in life that was nice while Wei was rich and had had many beauties; if Wei Yin were to take her as well, Cheng would be left with nothing. This brought Wei to his senses and he apologized to Miss Jen.
+- After this misunderstanding, the two became close and often spent time together. Miss Jen also pulled strings to get a nice wife for Wei because of his honorable actions but he was never satisfied. Miss Jen would try to help both men by bribing families to get new women for Wei and to make more money for Cheng. Because of Jen's frequent advice, Cheng was able to secure a nice position in work and get a good deal on a blemished imperial horse. However, although Miss Jen had proven to be insightful and powerful, Cheng was hesitant to take her word on matters whereas Wei Yin never questioned her methods.
+- Cheng had obtained a lawful wife during this time but wanted to bring Miss Jen to his new post; at first Miss Jen refused and stated that a shamaness had told her that it would be unlucky for her if she were to travel west during that time of year. Cheng wouldn't take no for an answer and Miss Jen was forced to pack up and begin travelling west with Cheng to his new post. Not long after their journey started, the group came across several hunting dogs in the area. Because of this, Miss Jen turned into her true form (a fox) and took off into the fields to try to flee from the dogs. She was unfortunately unsuccessful and was killed by the hounds.
+- Cheng was greatly upset that Miss Jen had been killed thanks to his foolishness, and so he spent his own money to give her a proper burial and erected a grave marker to her. When he returned home, Wei Yin asked to see Miss Jen only to be informed by Cheng that she had been killed by hunting hounds. Wei Yin couldn't understand how some dogs, even though fierce, were able to kill a human. This is when Cheng revealed Miss Jen's true nature as a fox-fairy to his cousin, who in disbelief travelled to her grave to dig up her body and see for himself that she was indeed a fox.
+- The story ends there with a brief look into Cheng's future, which turned out to be wealthy and prosperous.
 ## Prince Tan of Yen (43-49)
 - ![[Pasted image 20231009211518.png]]
 ### Background
@@ -154,6 +166,9 @@ He made money by selling a ghost"
 	- General Fan
 	- Wu Yang
 ### Plot
+1. The prince of yen is in captivity by the king of Ch'in, but manages to make an escape through a bet with the king that should have been impossible.
+2. The king does not want him to leave so he tries to set traps but the prince still gets away
+3. Prince is upset and wants revenge, so he reaches out to his mentor
 # The Courtesan Li Wa (163-171) (Dedicated Lover)
 ## Background
 - Author: Po Hsing-chien (776-826, 白行简). Younger brother of famous Tang poet Po Chu-yi (白居易)
@@ -186,7 +201,11 @@ He made money by selling a ghost"
 	- Love
 	- Author's point of view
 ## Plot
-- Sleeps with his cousin, then leaves her to marry another
+- Chang saves lady Li Wa and her family from an overtaking
+- Li Wa thanks him and introduces him to her children
+- He falls in love with the daughter and has to go through her maid to convince her to sleep with him
+- They both end up marrying someone else and Ying-ying reaches out to him and he responds saying that it would not help his career if he stayed with her
+- 
 # The World Inside a Pillow (435-438)
 ## Background
 - Author: unknown
