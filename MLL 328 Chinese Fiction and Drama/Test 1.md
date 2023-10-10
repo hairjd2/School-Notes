@@ -198,6 +198,22 @@ He made money by selling a ghost"
 - Characters (Mr. Lu, old Taoist monk Lu)
 - Realization
 ## Plot
+1. Young Taoist monk talks with old man and discusses about how miserable his life is
+2. Old man gives him a pillow to lay his read since he was getting tired
+3. As he fell asleep, the pillow got bigger and he entered it
+4. His life started getting better:
+  - He took the chih-shi exam and passed
+  - War aftermath killed emperor's commander, so the emperor appointed the monk to it
+  - He then transferred to be the second ministry of the Ministry of Personnel
+5. Prime minister becomes jealous of him
+6. He becomes prime minister and gives excellent orders to the emperor
+7. His coworkers start talking behind his back and got him imprisoned
+8. He was about to kill himself but his wife stopped him
+9. Emperor then realizes his accusations were false and brings him back
+10. He has five sons, which one passes the Chih-shi exam
+11. He grows old and starts dying, ending with him dead
+12. He wakes up and realizes that it was all a dream, but learned the extensiveness of living a "happy life" and the ups and downs that come with it.
+13. He thanked the old man and left
 # The legendary Marriage at Tung-T'ing (346-354)
 ## Background
 - Author: Li Chao-wei
@@ -207,3 +223,12 @@ He made money by selling a ghost"
 - Conflict of Confucian ethics (proper behavior) and personal desire (Liu Yi a righteous man)
 - Repayment (Dragon Princess) - coincidence
 ## Plot
+1. Yi finds beautiful woman in tattered clothes on side of road. She is sad bc her husband is awful to her and asks Yi to send a letter to her hometown
+2. She gives instructions on how to get there
+3. He gets there and gives the letter, the lord is upset and the girl's uncle leaves and kills her husband and creates mass destruction, but also appeals to the 9th heaven
+4. They thank Yi and celebrate him
+5. Uncle asks if he will marry her
+6. He refuses since he had just killed her husband and thought it wrong to marry her right after
+7. He goes back home and has two wives that both die within months
+8. He comes across the girl again, who admits who she is after they marry and they live happily for thousands of years
+9. His cousin Ku is ruler but then banished, comes across Yi after Yi had gone missing for years.
