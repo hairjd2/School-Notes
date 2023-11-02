@@ -65,6 +65,14 @@
 - Hangzhou (silver) - Suzhou (clothes) - Chinking/Zhenjiang (Fa-hai) - Hangzhou
 - Why did the Lady in White give Hsu Huan silver and clothes?
 - ==Didactic message (p. 378)==
+	- My master delivered me from this vainglorious world
+	- Like an iron-tree in blossom, I am finally reborn
+	- As incarnation succeeds incarnation in recurrence
+	- Life is transformed life upon life renewed
+	- In truth is beauty constant? or is it vanity?
+	- Know then: that it is formless, yet in various forms appears
+	- For the two, beauty and vanity are interchangeable
+	- But between vanity and beauty the line should be clearly drawn
 ## Plot
 # The Selfless Friend
 ## Wu Pao-an Ransoms His Friend
@@ -88,6 +96,15 @@
 - Model citizens
 - Supernatural elements
 ### Plot
+- Chung-hsiang gets high position
+- Pao-an realizes he's from the same place and asks for a good position too, and Chung-hsiang does
+- First barbarian goes well, but second doesn't, chung-hsiang gets captured
+- He sends letter to Pao-an to see if he can ask uncle for money needed for ransom
+- Uncle dead (rip) so he spends ten years and leaves his wife to help out chung-hsiang
+- Chung-hsiang is tortured during it
+- Chung-hsiang ransomed
+- pao-an and wife die
+- chung-hsiang does well and helps with pao-an's son
 ## The Old Servant Hsu
 ### Background
 - Prologue (Hsiao Ying-shih, Tu Liang)
@@ -107,15 +124,18 @@
 - Prologue
 - Characters
 	- Shao-shih
-	- Chih Chu
-	- Te K'uei
-	- Hsiu Ku
+	- Chih Chu (troublemaker)
+	- Te K'uei (servant)
+	- Hsiu Ku (maid)
 	- Magistrate
 	- K'uang Chung
 - Role of supernatural (can hear dead fetus crying)
 - Torture
 - Narrator's point of view (chastity, officials)
 ### Plot
+- Husband dies
+- Wife (Shao-shih) commits to chastity
+- Chih chu convinces te k'uei to try and make her sleep with him
 
 ## The Boot that Reveals the Culprit
 ### Background
@@ -133,11 +153,24 @@
 - Author's point of view
 - Supernatural beliefs
 - Differences of the two stories
+## Plot
+- Lady Han becomes sick because she's not having sex
+- Marshal takes care of her
+- She gets sick again, wishes someone like god Ehr Lang will marry her
+- Someone that looks like the god does and pretends to be him
+- They have an affair, and the guy steals her jade waistband
+- At one point he gets attacked by a priest, leaves his boot
+- Boot lets Jan Kuei and Inspector Wang to find out it was Sun Shen-tung
 # The Female Ch'en P'ing Saves Her Life with Seven Ruses
 ## Plot
 - The prologue 
 - Story starts out with a prologue about how Female Ch'en P'ing is able to save any problem
 - Then they got news that bandits were coming to steal the wives to rape
 - Ch'en Ping
+## Plot
+- Pretends to have period
+- Then pretends to have a sicknes to get out of having sex
+- Then slips him pills to make him sick
+- 
 # Painted Skin
 ## Plot
