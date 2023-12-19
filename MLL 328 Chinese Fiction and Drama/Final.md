@@ -26,10 +26,54 @@
 	- Different aesthetic, very stylized, symbolic, not meant to be realistic but rather suggestive.
 # Autumn in the Han Palace
 ## Plot
-- Starts with Emperor Huhanya saying that 
+- Starts with Emperor Huhanya saying that he is unchallenged ruler
+- Emperor Yuan sends Mao Yen-shou to find him a wife
+- He finds a bunch, including Wang Chao-chun, who he ruins the portrait of so that the emperor doesn't choose her
+- She still comes and attracts the attention of the emperor with her playing the pipa. kills the painter for making her look ugly
+- Huhanya is upset he gets no bitches and thinks about invading the south
+- Mao Yen-shou is upset emperor still found girl, so he goes to Huhanya about Wang Chao-chun
+- Huhanya wants Wang
+- Wang and yuan sleep together
+- Prime minister informs Yuan that he must give up Wang or Huhanya will invade, but yuan does not want to, but the prime minister warns him that its for the good of his people since their defense is bad
+- He eventually agrees to give her up
+- Wang asks to have a drink and then jumps into the river
+- Huhanya says "oh well" thinking she drowned
+- Yuan sings of wanting to dream about her
+- Wang returns
+- Foreign soldier takes her back in chains
+- Prime minister tells him what happened
+- Yuan has Mao beheaded for causing all of this
 # The Injustice Done Tou Ngo
 ## Plot
-
+- Introduces Mother zai who is owed 40 taels by scholar tou
+- Considers his daughter as her own
+- Tou basically sells his daughter to Mother to void the debt and get 10 more taels for travel
+- Tuan-yun is sad but Mother zai reassures her
+- Dr. Lu owes Mother Zai and wants to kill her, Tuan-yun now Tou ngo and a widow after 13 years
+- Dr tries to kill her but the chang's save her
+- They both press her about owing them and asking her and her daughter to marry them
+- She invites them to her home
+- Mother zai is forced to tell Tou about the marraige dealio and Tou does not like it
+- Donkey and Tou try to persuade her to either marry or don't marry
+- Dr. Lu runs away in shame for trying to strangle tsai
+- Donkey threatens on snitching on dr. lu so he can give him some poison to kill tsai
+- Donkey tries to poison mother through her soup, accidentally killing old chang since mother didn't want any
+- Donkey tries to blame Tou for it
+- Donkey takes Tou to court
+- No one confesses to putting the poison in the soup, so Evil brute jokingly says he must have done it
+- They beat Tou to try and get her to confess
+- She finally confesses when they threaten to beat the mother
+- She gets sentenced to cangue and then death
+- She asks for a clean mattress and silk to be hung from a tree so that no blood is spilled
+- She threatens the prison governor that it will snow in summer since heaven is so moved by her being wrongly accused
+- When she gets executed, it starts snowing and the blood goes up the white silk piece and doesn't touch the ground
+- Tou comes to visit her dad as a ghost after he has become inspector general and all that
+- He cries thinking that she did kill the old chang guy
+- She wraps him up on the story
+- He realizes she was wrong
+- He takes donkey to court
+- Tou shows up to call him out and beats him up
+- Donkey ends up getting sentenced to death, evilbrute sentenced to lashings, and dr. lu sentenced to exile.
 # Farewell My Concubine
 ## Background
 - Director: Chen Kaige
