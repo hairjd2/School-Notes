@@ -1,0 +1,8 @@
+- Based on a song dynasty villain and his companions
+- Written between Yuan and Ming dynasties
+- Not certain who the writer is but is likely Shi Nai'an or Luo Guanzhong
+- Or even both
+- One of the earliest works of Wuxia (martial heros)
+- Nansen Satomi Hakkenden (The Eight Dog Warriors).
+- Inspired many wuxia novels like the story above
+- 
