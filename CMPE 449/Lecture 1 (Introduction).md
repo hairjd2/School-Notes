@@ -1,0 +1,43 @@
+- Shift in how hardware is created, has become more horizontal, meaning more trust is needed
+- It used to be vertical where one company would do everything
+- Three main segments of hardware design
+	- IP Vendor
+	- System Integrator
+	- Manufacturer
+- Three types of IP
+	- Soft: when the vhdl code is sold
+	- Firm: when code with generic purpose (open-source) is sold
+	- Hard: when the manufactured board is sold
+- Different parts on one chip could be designed by different companies, meaning that all parts must be able to trust each other
+- ![[Pasted image 20240201162926.png]]
+-   IC counterfeiting is the most prevalent attack today and encompasses the unauthorized production of wafers
+- Estimated to cost semiconductor industry more than several billion dollars per year
+- Done through:
+	- Overproduction
+	- Defective parts
+	- Off-spec parts
+	- Cloned ICs
+	- Recycled ICs
+- Four legally defined forms of IP
+	- Patents
+	- Trademarks
+	- Copyrights
+	- Trade secrets
+- Hardware security is important
+	- Manufactured ICs are obscure
+	- HW is the platform running SW, storage and data
+	- Tampering can be conducted at many levels
+	- Easy to modify because its physical nature
+- Computer security aspects
+	- Confidentiality: the related assets are only accessed by authorized parties
+	- Integrity: the asset is only modified by authorized parties
+	- Availability: the asset is accessible to authorized parties at appropriate times
+- Hardware vulnerabilities
+	- Physical attacks
+	- Trojan horses
+	- IP Piracy
+	- IC Piracy and Counterfeiting
+	- Backdoors
+	- Tampering
+	- Reverse Engineering
+- 
