@@ -79,4 +79,4 @@
 ## Stream Ciphers
 - 1 char from P -> 1 char for C
 - Basically the plaintext and ciphertext will be the same size
-- 
+- Doesn't need to wait for all of the text that needs to be encrypted, it can just encrypt character by character.
