@@ -104,7 +104,34 @@
 	- Add subkey - XOR used (confusion)
 - byte-oriented cipher
 - State A (the 128 bit data path) can be arranged in 4x4 matrix
-# Homework:
-1. What is Finite Field (Galois Field)?
-2. What do we mean by GF(2^8)
-3. How addition/subtraction and multiplication is performed in GF(2^8)
+## Algorithm
+- For the 0th round, its just xored with the key
+- For the other rounds
+	1. S-box
+	2. shift row
+	3. mix column
+		- The matrix you multiply by are found from GF(2^8)
+	4. key $\oplus$
+		- Each round key is 4 bytes of the 16 bytes
+- $x^8+x^4+x^3+x+1$
+- 
+# Public Key Crypto
+## Characteristics
+- PKE requirements:
+	- It must be computationally easy to encipher or decipher a message given the appropriate key
+	- It must be computationally infeasible to derive k<sub>priv</sub> from k<sub>pub</sub>
+	- It must be computationally infeasible to determine k<sub>priv</sub> from a chosen plaintext attack
+- Key pair characteristics
+	- One key is inverse of the other key of the pair
+	- One of the keys can be public since each key does only half of E "+" D
+## RSA Example
+- Alice picks two primes *p*, *q* and computes $N=p*q$
+- Alice chooses exponent *e* which satisfies: $gcd(e, \phi(n))=1; gcd(e,(p-1)*(q-1))=1$
+- Alice's public key is the pair (N, e)
+- Alice's decryption/private key is d such that: $e*d=1\%((p-1)*(q-1))$
+- Alice's private key is the tripe (d, p, q)
+### Encryption
+- With the PK, Bob can compute C with $c=m^e \%N$
+### Decryption
+- Decrypt c with $p=c^d\%N$
+- 

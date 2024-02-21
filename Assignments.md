@@ -1,4 +1,4 @@
-# Assignments
+
 - [[#Week 1|Week 1]]
 - [[#Week 2|Week 2]]
 - [[#Week 3|Week 3]]
@@ -62,9 +62,9 @@
 ### CHIN 202
 ## Week 7
 ### MLL 230
-- [ ] Read lecture slides
-- [ ] Write Discussion Posts
-- [ ] Write Two Responses
+- [x] Read lecture slides
+- [x] Write Discussion Posts
+- [x] Write Two Responses
 ### CMPE 310
 ### CMPE 306
 ### CHIN 202
