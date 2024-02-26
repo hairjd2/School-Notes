@@ -64,4 +64,98 @@
 - In other cases, as with physical star, the electronics in the central device determine the logical topology
 - A network's logical topology reflects the underlying network technology used to transfer frames from one device to another
 - ![[Pasted image 20240225200137.png]]
-- 
+# Network Technologies
+---
+- Method a network interface uses to access the medium and send data frames, and the structure of these frames
+- Sometimes defines frame format and which media types can be used to transfer frames
+## Network Technologies and Media
+---
+### Unshielded Twisted Pair (UTP)
+---
+- Most command media type in LANs
+- Four pairs of copper wire with each pair tightly twisted together and contained in a plastic sheath or jacket
+- The higher the cat #, the higher the cable's bandwidth potential
+- Susceptible to electrical interference, which can cause data corruption
+### Fiber-optic Cabling
+---
+- Typically used in large internetworks to connect switches and routers
+- Good for carrying data at long distances and at high data rates
+- Isn't susceptible to electrical interference
+- Need two strands of fiber, one for tx and one for rx
+### Coaxial Cable
+---
+- Obsolete as a LAN medium, but still used as the network medium for internet access via cable modem
+- Og medium used by ethernet in physical bus topologies
+- Limitied to 10 Mbps half-duplex comms
+### Baseband and Broadband Signaling
+---
+- Network tech can used media in two main ways: broadband and baseband
+- Baseband tx method sends digital signals in which each bit of data is represented by a pulse of electricity or light
+- Broadband use analog techniques to encode binary 1s and 0s across a continuous range of values
+## Ethernet Networks
+---
+- Most popular LAN technology
+- Advantages:
+	- Ease of installation
+	- Sacalability
+	- Media suppoirt
+	- Low cost
+	- Supports broad range of transmission from 10 Mbps to 10 Gbps
+### Ethernet Addressing
+---
+- Every ethernet station must have a physical or MAC address
+- When a frame is sent to the network medium, it must contain both source and destination MAC addresses
+- If the destination address is the broadcast MAC address where its all Fs, the NIC reads the frame and sends it to the network protocol for further processing
+### Ethernet Frames
+---
+- Ethernet networks can accamodate frames between 64 bytes and 1518 bytes
+- A 14-byte frame header composed of these three fields
+	- 6-byte destination
+	- 6-byte source 
+	- 2-byte type field
+- Data field from 46 to 1500 bytes
+- A frame trailer (FCS) of 4 bytes
+- ![[Pasted image 20240225231902.png]]
+- Exceptions to the 1518 max size
+### Ethernet Media Access
+---
+- NIC must adhere to some rules governing how and when the medium can be access for tx before it does
+- These rules are called its media access method or media access control
+- In half-duplex, ethernet uses ==Carrier Sense Multiple Access with Collision Detection (CSMA/CD)==
+- "Carrier sense" means to listen, so it waits to listen to see if the channel is busy
+- It can have multiple computers and has collision detection
+### Collisions and Collision Domains
+---
+- The extent to which signals in an ethernet bus topology network are propagated is called a collision domain
+- ![[Pasted image 20240225233816.png]]
+- All devices in a collision domain are subject to the possibility of a collision
+- The more computers there are, the most likely a collision is to occur
+- Usually associated with hubs, can happen with a computer connected to a switch, but can only happen if the NIC connected to the switch port is in half-duplex mode
+### Ethernet Error Handling
+---
+- Its low cost and scalability is because its simple
+- Considered a best-effort delivery system
+- This is because it relies on network protocols to ensure reliable delivery of data
+- Can also detect whether a frame has been damaged in transit
+- It uses CRC
+## Ethernet Standards
+---
+- Generally expressed in the IEEE number or the XBaseY term
+- 10BaseT Ethernet or IEEE 802.3i
+	- Runs over cat 3 or higher UTP cabling
+- 10BaseTX Ethernet or IEEE 802.3u
+	- Most common ethernet variety
+	- Runs over cat 5e or higher UTP
+	- Sometimes called "Fast Ethernet"
+- 100BaseFX
+	- Used as a backbone cabling
+	- The F refers to it being fiber-optic
+- 1000BaseT Ethernet or IEEE 802.3ab
+	- Supports 1000 Mbps
+	- Works over cat 5e or higher UTP cable
+	- Does not dedicate wire pair to transmitting or receiving
+- 2.5GBaseT and 5GBaseT or 802.3bz
+	- Runs over cat 5e/6 cabling
+- 10GBaseT Ethernet or IEEE 802.3an
+	- Runs over four pairs of cat 6A or Cat 7 UTP cabling
+# 802.11 Wi-Fi
