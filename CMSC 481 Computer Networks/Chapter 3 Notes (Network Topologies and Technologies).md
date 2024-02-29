@@ -159,3 +159,39 @@
 - 10GBaseT Ethernet or IEEE 802.3an
 	- Runs over four pairs of cat 6A or Cat 7 UTP cabling
 # 802.11 Wi-Fi
+---
+- 1997 wireless networking standard
+## Modes of Operation
+---
+- Can operate in two modes: infrastructure or ad hoc
+- Infrastructure mode: wireless stations connect through a wireless AP before they can begin communicating with other devices
+	- Most wifi networks operate in this mode
+	- Uses logical bus topology because all nodes hear all communications
+	- Also mostly resembles a physical star topology
+- Ad hoc: data travels from one device to another in a line with no central device
+	- sometimes called "peer-to-peer mode"
+	- typically used only in small or temporary installations
+	- Most resembles a physical and logical bus
+## Wi-Fi Channels and Frequencies
+- Operate at either 2.4 or 5 GHz
+- These can be between 2.412-2.484 GHz, with 14 difference channels separate 5MHz apart and each channel being 22 MHz wide
+- Only first 11 channels used in North America
+- Japan allows all 14 channels
+- 5GHz divides frequencies between 4.915 GHz and 5.825 GHz into 42 channels of 10, 20, 40, 80 or 160 MHz each, depending on the Wi-Fi standard in use
+- Should use channels 5 apart if using multiple to avoid overlap
+- For 5GHz, there are up to 24 nonoverlapping channels
+- Can use inSSIDer to scan channels and see how much activity is on each channel
+## Wi-Fi Antennas
+---
+- Both the tx and rx
+- Placement and characteristics determine how well a device tx or rx
+- Categorized by their radiation pattern:
+	- Omnidirectional antenna: signals radiate out from the antenna with equal strength in all directions
+		- The perfect antenna would look like a sphere
+		- irl it looks like a donut
+		- Most often used in WLANs because they cover a broad area
+	- Unidirectional antenna: signals are focused in a single direction, which makes them ideal for placement at one end of long, narrow spaces or to cover distances between buildings
+		- Common antennas include the Yagi, which looks like a cylinder and produces an egg-shaped radiation pattern
+## Access Methods and Operation
+---
+- 
