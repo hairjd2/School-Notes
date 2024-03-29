@@ -1,0 +1,82 @@
+# Static Timing Analysis (STA)
+- Tool by Vivado to make sure that your design meets timing constraints
+- ![[Pasted image 20240320101303.png]]
+- Static timing path:
+	- Starts at a clocked element
+	- Propagates through combinatorial elements and their nets
+	- Ends at a clocked element
+- `report_timing_summary`
+- Setup area: displays all max delay analysis like setup, recovery, and data checks
+	- Worst negative slack (WNS): Worst slack of all the timing paths for max delay analysis - can be positive or negative
+	- Total Negative Slack: Sum of all WNS violations
+	- 0 means that all timing constraints meet max delay analysis
+	- Negative = violations
+	- Check number of failing endpoints
+	- If large number of failed endpoints, check overall design like the reset or cross domain issues
+- Hold area:
+	- Can usually ignore hold issues since implementation will fix it
+- Pulse Width Area: Displays all checks related to pin switching limits, including min low pulse width, min high pulse width, min period, max period, max skew
+	- Worst Pulse Width Slack (WPWS): Worst slack of all the timing checks when using both min and max delays
+	- Can have issues if duty cycle is too small
+- Can check duty cycles in clock summary section
+- Other Path Groups:
+	- Usually shows "\*\*async default\*\*"
+- Check User Ignored Paths for false paths
+- Unconstrained paths have non-analyzed paths
+- Launch edge: clock edge that sends the data out from a seq element
+- Capture edge: clock edge that receives the data from a seq element
+- ![[Pasted image 20240320104055.png]]
+- Its assumed that flip flops are both rising edge flip flops
+- Timing checks include clock propagation from the attached point
+	- To the startpoint of the static timing path
+	- To the endpoint of the static timing path
+- Negative delay is normal
+## Input Output Timing Overview
+- Vivado knows all timing issues within the fpga as long as the constraints are set correctly
+- You don't need constraints for asynchronous elements
+# Applying Baseline Timing Constraints
+- **Baselining**: iterative approach of adding timing constraints to your design
+- Method of iterating through synthesis and implementation
+1. Primary focus is to identify internal device timing challenges
+2. I/O constraints can be added and verified
+3. Path-specific constraints are added
+- Timing Constraints Wizard
+	- Tool to aid in writing and validating constraints
+	- Simplifies constraint creation and validation
+	- Analyzes netlist, clock net connectivity, and existing timing constraints
+- Language Templates
+	- Has XDC constraint templates
+	- Available for most situations
+- Ensure properly defined clock
+- If you have two clocks with the same phase relationship, you need to configure it
+- Can create virtual clock with no pins connected to it
+- ![[Pasted image 20240320112841.png]]
+- Can use this to prepare for any delay of I/O
+- ![[Pasted image 20240320113211.png]]
+- **System Syncrhonous I/O Interface**: System-synchronous I/O interfaces use a common system clock at both the source and destination
+- **Direct Capture**: Capture clock can be directly used to capture the data - in such cases, flexibility to align the clock is limited
+- **Capture Clock through MMCM**
+- ![[Pasted image 20240320114551.png]]
+- ![[Pasted image 20240320114747.png]]
+- ![[Pasted image 20240320115251.png]]
+- Can set clock group constraints to mutually exclude each group so that they are not consider during timing analysis
+- An async clock group is when two clocks cannot be traced to a common source
+- ![[Pasted image 20240320115615.png]]
+- ![[Pasted image 20240320115847.png]]
+# How to Apply Timing Exception Constraints
+## Timing Exceptions
+- Situations exist where the normal setup and hold checks are not correct for a portion of a design
+- Some aspects of the architecture require modifications of these checks
+- These are accomplished with exceptions
+- Types:
+	- False paths
+	- Clock groups
+	- Multicycle paths
+	- Min and max delays
+- ![[Pasted image 20240320130644.png]]
+- Multicycle path: occur when registers are not updated on consecutive clock cycles
+- ![[Pasted image 20240320132527.png]]
+- ![[Pasted image 20240320132952.png]]
+- ![[Pasted image 20240320133006.png]]
+- ![[Pasted image 20240320133157.png]]
+- 
