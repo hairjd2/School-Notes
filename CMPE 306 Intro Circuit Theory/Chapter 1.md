@@ -9,14 +9,14 @@
 - Can use a graphing calcualator (learn how to use matrices on it)
 - Need an 86% for an A
 
-Assignment | Grade Percentage
------------- | ------------
-Homework | 10%
-Weekly labs | 10%
-Final lab | 10%
-Midterm 1 | 15%
-Midterm 2 | 20%
-Final | 35%
+| Assignment  | Grade Percentage |
+| ----------- | ---------------- |
+| Homework    | 10%              |
+| Weekly labs | 10%              |
+| Final lab   | 10%              |
+| Midterm 1   | 15%              |
+| Midterm 2   | 20%              |
+| Final       | 35%              |
 
 # Chapter 1 Basic Concepts
 ## Electric Circuit Elements
