@@ -148,7 +148,7 @@
 		- Superposition: ![[Pasted image 20240830215340.png]]
 - Example 2: 
 	- ![[Pasted image 20240830215354.png]]
-	- Also clearly not time-invariant bc a delay would still get the same output
+	- Also clearly time-invariant bc a delay would still get the same output
 	- Not linear:
 		- ![[Pasted image 20240830222355.png]]
 		- ![[Pasted image 20240830222437.png]]
