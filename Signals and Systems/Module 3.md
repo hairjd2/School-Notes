@@ -12,7 +12,7 @@
 	- ![[Pasted image 20240909210919.png]]
 	- ![[Pasted image 20240909211040.png]]
 # Continuous Time Fourier Series
-- The CT Fourier Series decomposition for periodic signals $x(t)=x(t+T_0)
+- The CT Fourier Series decomposition for periodic signals $x(t)=x(t+T_0)$
 	- ![[Pasted image 20240909211229.png]]
 - The complex numbers $X_k$ are called the ==Fourier Series Coefficients==
 	- ![[Pasted image 20240909211348.png]]
