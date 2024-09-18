@@ -37,4 +37,60 @@
 	- x(t) has a finite number of maxima and minima with any finite interval
 	- x(t) has a finite number of discontinuities within any finite interval, and each of these discontinuities is finite
 ## Inverse CTFT Examples
-- 
+- Example 1: ![[Pasted image 20240917230934.png]]
+	- ![[Pasted image 20240917231105.png]]
+	- When you have a functional form in time with a fourier transform, you will have a functional form in frequency with a transform to a functional form in time, creating a duality
+	- ![[Pasted image 20240917231222.png]]
+	- ![[Pasted image 20240917231243.png]]
+	- ^ Means if you have a box in time function and a sinc in frequency function, then having sinc function in time will yield a box in frequency domain
+- Example 2: ![[Pasted image 20240917231356.png]]
+	- ![[Pasted image 20240917231405.png]]
+	- ![[Pasted image 20240917231428.png]]
+	- If you have a single sinusoidal component at frequency omega naught, then its FT is an impulse at that frequency
+	- ![[Pasted image 20240917231534.png]]
+	- Frequency content is discrete in this example, similar to the FS we looked at
+### CTFT Periodic Signals 
+- ![[Pasted image 20240917231730.png]]
+	- Series of impulses at the harmonic frequencies
+	- The weights at those frequencies are really
+	- Also consistent with discrete frequencies
+### Other CTFT Pairs
+- ![[Pasted image 20240917231851.png]]
+- ![[Pasted image 20240917232005.png]]
+## CTFT Properties
+- Linearity: $a_1x_1(t)+a_2x_2(t)\leftrightarrow a_1X_(\Omega)a_2X_2(\Omega)$
+- If x(t) is real-valued, then $X(-\Omega)=X^*(\Omega)$
+	- ![[Pasted image 20240917232552.png]]
+	- Magnitude of fourier transform function will be even
+	- ![[Pasted image 20240917232629.png]]
+- Time Shift: $x(t-t_0)\leftrightarrow X(\Omega)e^{-j\Omega t_0}$
+	- Does not affect magnitude, but phase
+- Time Scaling: $x(\alpha t)\leftrightarrow \frac{1}{|\alpha|}X(\frac{\Omega}{\alpha})$
+- Time reversal: $x(-t)\leftrightarrow X(-\Omega)$
+- Example: ![[Pasted image 20240917232918.png]]
+	- Start with the components of the signal
+	- ![[Pasted image 20240917233114.png]]
+	- Find a FT Pair we already know
+	- ![[Pasted image 20240917233154.png]]
+	- ![[Pasted image 20240917233305.png]]
+	- Then can write q(t) in relation of y(t) as an expansion
+	- ![[Pasted image 20240917233515.png]]
+	- ![[Pasted image 20240917233553.png]]
+	- ![[Pasted image 20240917233608.png]]
+	- ![[Pasted image 20240917233704.png]]
+- Frequency Shift: $x(t)e^{j\Omega_0t}\leftrightarrow X(\Omega-\Omega_0)$ <- Extremely important, used by communication systems like amplitude modulation
+	- ![[Pasted image 20240917233954.png]]
+	- Allows for the same channel to be used by different users to be able to shift the frequency around
+- Differentiation: $\frac{dx(t)}{dt}\leftrightarrow j\Omega X(\Omega)$
+- Integration: $\int_{\infty}^{t}\leftrightarrow\frac{1}{j\Omega}X(\Omega)+\pi X(0) \delta(\Omega)$
+- Time-domain convolution: $y(t)=\int_{-\infty}^{\infty}x(\tau)h(t-\tau)d\tau\leftrightarrow Y(\Omega)=X(\Omega)H(\Omega)$
+	- The FT of the input signal and system response are just multiplied together instead of needing to do the integral
+	- Time domain versus frequency domain interpretation
+- Multiplication: $x(t)w(t)\leftrightarrow\frac{1}{2\pi}\int_{-\infty}^{\infty}X(\lambda)W(\Omega-\lambda)d\lambda$
+	- Also known as windowing
+- Duality: $X(t)\leftrightarrow2\pi x(-\Omega)$
+- Parseval's Relation: $E=\int_{-\infty}^{\infty}|x(t)|^2dt=\frac{1}{2\pi}\int_{-\infty}^{\infty}|X(\Omega)|^2d\Omega$
+	- This allows you to find the energy of the signal by finding the integral of the FT magnitude squared.
+	- Also pretty handy to know
+# Frequency Domain Analysis of LTI Systems
+-  
