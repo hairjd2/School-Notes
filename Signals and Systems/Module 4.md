@@ -93,4 +93,38 @@
 	- This allows you to find the energy of the signal by finding the integral of the FT magnitude squared.
 	- Also pretty handy to know
 # Frequency Domain Analysis of LTI Systems
--  
+- Impulse Response of Ideal Low Pass Filter
+	- ![[Pasted image 20240918200548.png]]
+	- Simply the inverse fourier transform of the above response signal
+	- ![[Pasted image 20240918200707.png]]
+	- Can solve by finding when at the origin or when t is 0
+	- Value at this origin: ![[Pasted image 20240918200925.png]]
+	- (Area under the H(Omega))
+- Frequency Domain Analysis of LTI Systems
+	- ![[Pasted image 20240918201003.png]]
+	- Convolution in time is multiplication in frequency
+- LTI analysis Example: ![[Pasted image 20240918202735.png]]
+	- Know that its an ideal low pass filter
+	- ![[Pasted image 20240918202750.png]]
+	- Know X(Omega): ![[Pasted image 20240918202844.png]]
+	- Multiply them to get the same as convolution by the system response signal
+	- ![[Pasted image 20240918202951.png]]
+	- Anything outside of that Omegac will be rejected
+	- The product will then look exactly like the impulse response
+	- ![[Pasted image 20240918203031.png]]
+- Different inputs
+	- ![[Pasted image 20240918203104.png]]
+	- ![[Pasted image 20240918203149.png]]
+		- The output signal is the same linear combination as the input signal modified by what frequency response is doing
+	- ![[Pasted image 20240918203212.png]]
+		- Need to now look at the fourier transform
+		- It is simply the product of the input and the frequency response
+	- Frequency response is just a modification to the input into the output of the system
+# Frequency Response of LTI System Diff Eq
+- ![[Pasted image 20240918203432.png]]
+- Want to find the frequency response and the frequency domain of the system
+- FT is a linear operator so we can take the fourier transform of each of the terms
+- ![[Pasted image 20240918203703.png]]
+- ![[Pasted image 20240918203730.png]]
+- The graphics show what the magnitude and phase look like
+- 
