@@ -58,7 +58,7 @@
 - ![[Pasted image 20240917231851.png]]
 - ![[Pasted image 20240917232005.png]]
 ## CTFT Properties
-- Linearity: $a_1x_1(t)+a_2x_2(t)\leftrightarrow a_1X_(\Omega)a_2X_2(\Omega)$
+- Linearity: $a_1x_1(t)+a_2x_2(t)\leftrightarrow a_1X_1(\Omega)+a_2X_2(\Omega)$
 - If x(t) is real-valued, then $X(-\Omega)=X^*(\Omega)$
 	- ![[Pasted image 20240917232552.png]]
 	- Magnitude of fourier transform function will be even
