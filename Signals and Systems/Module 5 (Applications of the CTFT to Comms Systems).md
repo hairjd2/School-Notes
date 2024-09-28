@@ -60,4 +60,43 @@
 - ![[Pasted image 20240924002055.png]]
 - ![[Pasted image 20240924002245.png]]
 - Part of transmit power is used for transmitting irrelevant signals for the power, leading to efficiency
-- 
+## Efficiency of DSB-TC
+- What fraction of the total tx power is used for transmitting the message signal m(t)?
+- ![[Pasted image 20240924171045.png]]
+- $\eta=\frac{useful power}{total power}=\frac{P_m}{P_m+P_c}=\frac{P_m}{P_m+A^2}$
+- Consider the tx signal for DSB-TC: $[A+m(t)]cos(\Omega _ct)$
+	- ![[Pasted image 20240924171450.png]]
+	- ![[Pasted image 20240924171811.png]]
+	- ![[Pasted image 20240924171819.png]]
+- ![[Pasted image 20240924171834.png]]
+	- Smallest A can be is 1
+	- $P_m=1/2$
+	- $\eta=\frac{1/2}{1/2+1}=\frac{1}{3}$
+# Amplitude Modulator (Mixing)
+- In general, multiplication of two CT signals is difficult to implement
+- Consider the following "switching modulator":
+- ![[Pasted image 20240924172320.png]]
+- Can consider it like a switch turning off and on at the rate of 2pi where you only see m(t) half of the time
+- ![[Pasted image 20240924172545.png]]
+- ![[Pasted image 20240924172643.png]]
+- The switching and bandpass filter lets us do the multiplication easily
+# Broadcast AM
+- For broadcast AM, each message is bandlimited to 5kHz
+	- ![[Pasted image 20240924173015.png]]
+- Each broadcast message or "station" is separated by at least 10kHz
+- The frequency band for commercial AM in the U.S. is 535kHz - 1605kHz
+- A tunable bandpass filter with 10kHz bandwidth is required at the rx to separate one "station" from another
+- In general, it is very difficult to design a high-quality analog filter with tunable center frequency and fixed bandwidth
+- Atwater Kent Radio: ![[Pasted image 20240924173404.png]]
+# Superheterodyne Receiver
+- ![[Pasted image 20240924173548.png]]
+- Very difficult to implement in practice
+- Have a fixed center frequency bandpass filter, which is what the IF amplifier is ($F_{IF}$)
+- IF: Intermediate Frequency
+- Local oscillator is there to shift the frequency down to the IF band
+	- A frequency of $F_c+F_{IF}$
+- ![[Pasted image 20240924174401.png]]
+## Image Frequencies
+- ![[Pasted image 20240924174424.png]]
+- There will end up being another radio station that is in the same band
+- The RF amplifier at the front has a tunable bandpass filter that lets you specify the radio station you
