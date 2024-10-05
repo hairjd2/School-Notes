@@ -2,7 +2,7 @@
 - The process of taking a CT signal every certain amount of seconds
 - Sampling induces an ambiguity in the absence of a priori info
 - Uniform sampling in time
-	- Samplign converts a ct signal into a dt signal
+	- Sampling converts a ct signal into a dt signal
 	- Uniform sampling with sampling interval $T_S$ and sampling rate or frequency $F_S=\frac{1}{T_S}$
 	- Want to consider:
 		- If the samples of x[n] accurately represent the ct signal $x_a(t)$
@@ -38,4 +38,9 @@
 - ![[Pasted image 20241002230049.png]]
 - ![[Pasted image 20241002230103.png]]
 # Undersampling and Aliasing
-- 
+- ![[Pasted image 20241005173410.png]]
+- Want to ask what if the original signal is not bandlimited and don't apply a filter to make sure it is
+- ![[Pasted image 20241005173450.png]]
+- The only frequencies that work are frequencies in -F_0 and F_0
+- ![[Pasted image 20241005174036.png]]
+- ![[Pasted image 20241005174325.png]]
