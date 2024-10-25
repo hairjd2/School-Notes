@@ -37,7 +37,7 @@
 - Bottom is often called sinc-interpolation
 - ![[Pasted image 20241002230049.png]]
 - ![[Pasted image 20241002230103.png]]
-# Undersampling and Aliasing
+# Under sampling and Aliasing
 - ![[Pasted image 20241005173410.png]]
 - Want to ask what if the original signal is not bandlimited and don't apply a filter to make sure it is
 - ![[Pasted image 20241005173450.png]]
