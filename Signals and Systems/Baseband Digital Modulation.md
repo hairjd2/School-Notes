@@ -1,6 +1,7 @@
 - "When a signal is discrete, it can be thought of as a list of numbers representing the sample values of an analog waveform."
 - One pulse is placed at each sampling point
-# PAM (Pulse Amplitude Modulation)
+# Pulse Modulation
+## PAM (Pulse Amplitude Modulation)
 - Flat-top PAM (s(t) inputted into a gating circuit):![[Pasted image 20241022210617.png]]
 - Natural PAM (simply a product of the pulse train and s(t)):![[Pasted image 20241022210640.png]]
 - Time Division Multiplexing
@@ -11,7 +12,7 @@
 	- Is a linear form of modulation
 - Can be susceptible to crosstalk due to overlap of time slots
 - 
-# PWM (Pulse Width Modulation)
+## PWM (Pulse Width Modulation)
 - Pulse width not constant, so power of waveform not constant
 - As amplitude increases, power transmitted also increases
 - Complex to find FT bc it is a nonlinear form of modulation
@@ -20,10 +21,10 @@
 - Can use a sawtooth waveform to convert from PWM to PAM by converting from time to amplitude:![[Pasted image 20241022220225.png]]
 - ![[Pasted image 20241022220315.png]]
 - 
-# PPM (Pulse Position Modulation)
+## PPM (Pulse Position Modulation)
 - Has noise advantage like PWM but also no problem of a variable power that is a function of the amplitude of the signal
 - Derived from PWM
 	- For both, the position of the pulse varies
 	- But for PWM, the location of the leading or trailing edge of the pulse varies
-	- 
-# PCM
+- 
+# Binary Line Coding
