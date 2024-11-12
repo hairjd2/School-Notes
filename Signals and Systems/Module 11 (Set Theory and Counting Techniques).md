@@ -1,0 +1,20 @@
+# Intro to Set Theory and Counting Techniques
+- ![[Pasted image 20241109155754.png]]
+	- "a is contained in S"
+	- Use tabular or roster for the end part
+- ![[Pasted image 20241109160455.png]]
+- ![[Pasted image 20241109160624.png]]
+- ![[Pasted image 20241109160841.png]]
+- ![[Pasted image 20241109161602.png]]
+- ![[Pasted image 20241109161610.png]]
+- ![[Pasted image 20241109161624.png]]
+- ![[Pasted image 20241109161810.png]]
+- ![[Pasted image 20241109161954.png]]
+- ![[Pasted image 20241109162128.png]]
+- ![[Pasted image 20241109162145.png]]
+- ![[Pasted image 20241111102706.png]]
+- ![[Pasted image 20241111102729.png]]
+- ![[Pasted image 20241111112144.png]]
+- ![[Pasted image 20241111112725.png]]
+- ![[Pasted image 20241111112740.png]]
+- ![[Pasted image 20241111113115.png]]
