@@ -1,0 +1,25 @@
+- Designs don't always work in hardware if they do in simulation
+- ![[Pasted image 20250130221657.png]]
+- Can I implement this?: ![[Pasted image 20250130221749.png]]
+- ![[Pasted image 20250130221841.png]]
+- ![[Pasted image 20250130222024.png]]
+- ![[Pasted image 20250130222227.png]]
+- C and D's values are evaluated at the end of the statement: ![[Pasted image 20250130222611.png]]
+	- ![[Pasted image 20250130222834.png]]
+- ![[Pasted image 20250130223015.png]]
+- ![[Pasted image 20250130223219.png]]
+	- ![[Pasted image 20250130223300.png]]
+- ![[Pasted image 20250130223350.png]]
+- ![[Pasted image 20250130223546.png]]
+- ![[Pasted image 20250130223554.png]]
+- ![[Pasted image 20250130223704.png]]
+- ![[Pasted image 20250130223724.png]]
+- ![[Pasted image 20250130223850.png]]
+- Processes with wait statements should not have a sensitivity list
+- ![[Pasted image 20250130224304.png]]
+- ![[Pasted image 20250130224356.png]]
+- ![[Pasted image 20250130224532.png]]
+- The bit type will only take '0' or '1', unlike the std_logic type which can be other values.
+- Can't convert from std_logic to bit
+- ![[Pasted image 20250130225737.png]]
+- ![[Pasted image 20250130225744.png]]

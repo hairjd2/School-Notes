@@ -1,0 +1,16 @@
+- ![[Pasted image 20250125165443.png]]
+- Only need it to update on the clock, no need to check when D changes value
+- ![[Pasted image 20250125165653.png]]
+- ![[Pasted image 20250125170035.png]]
+- ![[Pasted image 20250125170117.png]]
+- ![[Pasted image 20250125170211.png]]
+- ![[Pasted image 20250125170454.png]]
+- ![[Pasted image 20250125170508.png]]
+- ![[Pasted image 20250125170515.png]]
+- ![[Pasted image 20250125171052.png]]
+- ![[Pasted image 20250125171220.png]]
+- ![[Pasted image 20250125171310.png]]
+- ![[Pasted image 20250125171319.png]]
+	- ![[Pasted image 20250125171336.png]]
+- ![[Pasted image 20250126103425.png]]
+- 

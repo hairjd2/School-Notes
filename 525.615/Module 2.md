@@ -1,0 +1,12 @@
+- Dev board extensively uses the stdint.h library
+- ![[Pasted image 20250129222321.png]]
+- ![[Pasted image 20250129222329.png]]
+- ![[Pasted image 20250129222400.png]]
+- ![[Pasted image 20250129222615.png]]
+- ![[Pasted image 20250129222626.png]]
+- ![[Pasted image 20250129223243.png]]
+- ![[Pasted image 20250129223828.png]]
+- ![[Pasted image 20250129224011.png]]
+- ![[Pasted image 20250129224348.png]]
+- Will have to make flowcharts for class
+- 
