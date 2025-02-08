@@ -1,0 +1,10 @@
+- ![[Pasted image 20250207223010.png]]
+- ![[Pasted image 20250207223229.png]]
+- ![[Pasted image 20250207223401.png]]
+- ![[Pasted image 20250207223607.png]]
+- ![[Pasted image 20250207223721.png]]
+- This shows Harvard model where memory and code is separated from each other
+- ![[Pasted image 20250207223842.png]]
+- ![[Pasted image 20250207223955.png]]
+- ![[Pasted image 20250207225550.png]]
+- ![[Pasted image 20250207225930.png]]
