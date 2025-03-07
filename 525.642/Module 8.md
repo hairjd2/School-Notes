@@ -1,0 +1,13 @@
+# Linear Feedback Shift Registers (LFSR)
+- ![[Pasted image 20250226234924.png]]
+- ![[Pasted image 20250226235045.png]]
+- ![[Pasted image 20250226235233.png]]
+- ![[Pasted image 20250226235322.png]]
+- ![[Pasted image 20250226235604.png]]
+- ![[Pasted image 20250226235756.png]]
+	- ![[Pasted image 20250226235806.png]]
+- ![[Pasted image 20250227222923.png]]
+	- ![[Pasted image 20250227223046.png]]
+- ![[Pasted image 20250227223443.png]]
+- ![[Pasted image 20250227223610.png]]
+- 

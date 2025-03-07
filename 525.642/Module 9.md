@@ -1,0 +1,21 @@
+# Generic Parameterization
+- ![[Pasted image 20250305211033.png]]
+- ![[Pasted image 20250305211126.png]]
+- ![[Pasted image 20250305211327.png]]
+- ![[Pasted image 20250305211419.png]]
+- ![[Pasted image 20250305211627.png]]
+# Generate
+- ![[Pasted image 20250305212119.png]]
+- ![[Pasted image 20250305212132.png]]
+- ![[Pasted image 20250305212058.png]]
+# Picoblaze
+- ![[Pasted image 20250305212507.png]]
+- ![[Pasted image 20250305212640.png]]
+- ![[Pasted image 20250305212737.png]]
+- ![[Pasted image 20250305212828.png]]
+- ![[Pasted image 20250305213130.png]]
+- ![[Pasted image 20250305213303.png]]
+- ![[Pasted image 20250305213247.png]]
+- ![[Pasted image 20250305213437.png]]
+- ![[Pasted image 20250305213516.png]]
+- ![[Pasted image 20250305213527.png]]
