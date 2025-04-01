@@ -1,0 +1,22 @@
+- ![[Pasted image 20250329130630.png]]
+- ![[Pasted image 20250329130655.png]]
+- ![[Pasted image 20250329130807.png]]
+- ![[Pasted image 20250329130825.png]]
+- ![[Pasted image 20250329131153.png]]
+- ![[Pasted image 20250329131234.png]]
+- ![[Pasted image 20250329131416.png]]
+- ![[Pasted image 20250329131427.png]]
+- ![[Pasted image 20250329131506.png]]
+- ![[Pasted image 20250329131533.png]]
+- ![[Pasted image 20250329131639.png]]
+- ![[Pasted image 20250329131705.png]]
+# Metastability
+- ![[Pasted image 20250329132103.png]]
+- ![[Pasted image 20250329132149.png]]
+- ![[Pasted image 20250329132302.png]]
+- ![[Pasted image 20250329132340.png]]
+- ![[Pasted image 20250329132441.png]]
+- ![[Pasted image 20250329132638.png]]
+## CDC
+- ![[Pasted image 20250329132954.png]]
+- 
