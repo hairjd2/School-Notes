@@ -1,0 +1,1 @@
+- Kinda know everything he talked about
